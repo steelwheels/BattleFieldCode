@@ -4,6 +4,8 @@ The Battlefield code is a programming game.
 The user controls their machine(s) by the JavaScript code.
 This software targets on macOS and iOS.
 
+This is an open source software. You can download every source code and documentation for this application.
+
 ## Copyright
 Copyright (C) [Steel Wheels Project](http://steelwheels.github.io). This software is distributed under [GNU General Public License version 2](https://opensource.org/licenses/GPL-2.0).
 
@@ -17,3 +19,5 @@ Copyright (C) [Steel Wheels Project](http://steelwheels.github.io). This softwar
 * [Battlefield code](https://github.com/steelwheels/BattleFieldCode): The main web site of this game
 * [Steel Wheels Project](http://steelwheels.github.io): The steel wheels project web site
 * [Blog page](https://steel-wheels-project.hatenablog.jp/): The developer's blog (Japanese)
+
+<a href="https://osdn.net/"><img src="//osdn.net/sflogo.php?group_id=11139&type=1" width="96" height="29" border="0" alt="OSDN"></a>

@@ -17,6 +17,9 @@ Copyright (C) [Steel Wheels Project](http://steelwheels.github.io). This softwar
 * [Game System](https://github.com/steelwheels/BattleFieldCode/blob/master/Document/Overview.md): The over view of the game system
 * [User interface design](https://github.com/steelwheels/BattleFieldCode/blob/master/Document/UserInterface.md): Design of the user interface
 
+## Software
+* [BattleFieldCore](https://github.com/steelwheels/BattleFieldCode/blob/master/BattleFieldCore/README.md): The Core framework for BattleFieldCode application
+
 ## Related links
 * [Battlefield code](https://github.com/steelwheels/BattleFieldCode): The main web site of this game
 * [Steel Wheels Project](http://steelwheels.github.io): The steel wheels project web site

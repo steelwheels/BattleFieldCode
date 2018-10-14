@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050D938721737C89006E691D /* BFCObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D938621737C89006E691D /* BFCObject.swift */; };
+		050D9389217384D3006E691D /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050D9388217384D3006E691D /* KiwiControls.framework */; };
+		050D938B217385CE006E691D /* BFCNaturalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D938A217385CE006E691D /* BFCNaturalObject.swift */; };
+		050D938D217388BF006E691D /* BFCMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D938C217388BF006E691D /* BFCMachine.swift */; };
 		0555A04821736F2D00CD7BD3 /* BattleFieldCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0555A04621736F2D00CD7BD3 /* BattleFieldCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0590AE02217370B30076C648 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590AE01217370B30076C648 /* CoconutData.framework */; };
 /* End PBXBuildFile section */
@@ -22,9 +26,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050D938621737C89006E691D /* BFCObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFCObject.swift; sourceTree = "<group>"; };
+		050D9388217384D3006E691D /* KiwiControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiControls.framework; path = ../../../../Library/Frameworks/KiwiControls.framework; sourceTree = "<group>"; };
+		050D938A217385CE006E691D /* BFCNaturalObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFCNaturalObject.swift; sourceTree = "<group>"; };
+		050D938C217388BF006E691D /* BFCMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFCMachine.swift; sourceTree = "<group>"; };
 		0555A04321736F2D00CD7BD3 /* BattleFieldCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BattleFieldCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0555A04621736F2D00CD7BD3 /* BattleFieldCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleFieldCore.h; sourceTree = "<group>"; };
-		0555A04721736F2D00CD7BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		0555A04721736F2D00CD7BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0590AE01217370B30076C648 /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../../Library/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050D9389217384D3006E691D /* KiwiControls.framework in Frameworks */,
 				0590AE02217370B30076C648 /* CoconutData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				0555A04E21736F3A00CD7BD3 /* Source */,
-				0555A04521736F2D00CD7BD3 /* BattleFieldCore */,
+				0555A04521736F2D00CD7BD3 /* OSX */,
 				0555A04421736F2D00CD7BD3 /* Products */,
 				0590AE00217370B20076C648 /* Frameworks */,
 			);
@@ -58,18 +67,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0555A04521736F2D00CD7BD3 /* BattleFieldCore */ = {
+		0555A04521736F2D00CD7BD3 /* OSX */ = {
 			isa = PBXGroup;
 			children = (
 				0555A04721736F2D00CD7BD3 /* Info.plist */,
 			);
-			path = BattleFieldCore;
+			name = OSX;
 			sourceTree = "<group>";
 		};
 		0555A04E21736F3A00CD7BD3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				0555A04621736F2D00CD7BD3 /* BattleFieldCore.h */,
+				050D938621737C89006E691D /* BFCObject.swift */,
+				050D938C217388BF006E691D /* BFCMachine.swift */,
+				050D938A217385CE006E691D /* BFCNaturalObject.swift */,
 			);
 			name = Source;
 			path = ../Source;
@@ -78,6 +90,7 @@
 		0590AE00217370B20076C648 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				050D9388217384D3006E691D /* KiwiControls.framework */,
 				0590AE01217370B30076C648 /* CoconutData.framework */,
 			);
 			name = Frameworks;
@@ -144,6 +157,7 @@
 				TargetAttributes = {
 					0555A04221736F2D00CD7BD3 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					0590AE03217371490076C648 = {
 						CreatedOnToolsVersion = 10.0;
@@ -183,6 +197,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050D938D217388BF006E691D /* BFCMachine.swift in Sources */,
+				050D938B217385CE006E691D /* BFCNaturalObject.swift in Sources */,
+				050D938721737C89006E691D /* BFCObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +338,7 @@
 		0555A04C21736F2D00CD7BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -353,6 +371,7 @@
 		0555A04D21736F2D00CD7BD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;

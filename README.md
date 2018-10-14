@@ -15,11 +15,13 @@ Copyright (C) [Steel Wheels Project](http://steelwheels.github.io). This softwar
 
 ## Document
 * [Game System](https://github.com/steelwheels/BattleFieldCode/blob/master/Document/Overview.md): The over view of the game system
+* [User interface design](https://github.com/steelwheels/BattleFieldCode/blob/master/Document/Overview.md): Design of the user interface
 
 ## Related links
 * [Battlefield code](https://github.com/steelwheels/BattleFieldCode): The main web site of this game
 * [Steel Wheels Project](http://steelwheels.github.io): The steel wheels project web site
 * [Blog page](https://steel-wheels-project.hatenablog.jp/): The developer's blog (Japanese)
 
-<a href="https://osdn.net/"><img src="//osdn.net/sflogo.php?group_id=11139&type=1" width="96" height="29" border="0" alt="OSDN"></a>
+This project is hosted by OSDN and github.
 
+<a href="https://osdn.net/"><img src="http://osdn.net/sflogo.php?group_id=11139&type=1" width="96" height="29" border="0" alt="OSDN"></a>

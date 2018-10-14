@@ -12,6 +12,7 @@
 		050D938B217385CE006E691D /* BFCNaturalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D938A217385CE006E691D /* BFCNaturalObject.swift */; };
 		050D938D217388BF006E691D /* BFCMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D938C217388BF006E691D /* BFCMachine.swift */; };
 		0555A04821736F2D00CD7BD3 /* BattleFieldCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0555A04621736F2D00CD7BD3 /* BattleFieldCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0573A217217395F20090B6A9 /* BFCField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573A216217395F20090B6A9 /* BFCField.swift */; };
 		0590AE02217370B30076C648 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590AE01217370B30076C648 /* CoconutData.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		0555A04321736F2D00CD7BD3 /* BattleFieldCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BattleFieldCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0555A04621736F2D00CD7BD3 /* BattleFieldCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleFieldCore.h; sourceTree = "<group>"; };
 		0555A04721736F2D00CD7BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0573A216217395F20090B6A9 /* BFCField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFCField.swift; sourceTree = "<group>"; };
 		0590AE01217370B30076C648 /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../../Library/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				050D938621737C89006E691D /* BFCObject.swift */,
 				050D938C217388BF006E691D /* BFCMachine.swift */,
 				050D938A217385CE006E691D /* BFCNaturalObject.swift */,
+				0573A216217395F20090B6A9 /* BFCField.swift */,
 			);
 			name = Source;
 			path = ../Source;
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0573A217217395F20090B6A9 /* BFCField.swift in Sources */,
 				050D938D217388BF006E691D /* BFCMachine.swift in Sources */,
 				050D938B217385CE006E691D /* BFCNaturalObject.swift in Sources */,
 				050D938721737C89006E691D /* BFCObject.swift in Sources */,

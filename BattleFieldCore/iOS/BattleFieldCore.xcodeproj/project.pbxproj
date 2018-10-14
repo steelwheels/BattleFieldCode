@@ -12,6 +12,7 @@
 		05078B3A21738D9F00C17BA9 /* BFCMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05078B3721738D9F00C17BA9 /* BFCMachine.swift */; };
 		05078B3D21738DC700C17BA9 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05078B3C21738DC700C17BA9 /* CoconutData.framework */; };
 		05078B3F21738DE100C17BA9 /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05078B3E21738DE100C17BA9 /* KiwiControls.framework */; };
+		051D86B92173989B0045ED12 /* BFCField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D86B82173989B0045ED12 /* BFCField.swift */; };
 		05D2C9D92173740300BC98A1 /* BattleFieldCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D2C9D72173740300BC98A1 /* BattleFieldCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		05078B3721738D9F00C17BA9 /* BFCMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFCMachine.swift; sourceTree = "<group>"; };
 		05078B3C21738DC700C17BA9 /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../../local/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
 		05078B3E21738DE100C17BA9 /* KiwiControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiControls.framework; path = ../../../../local/Frameworks/KiwiControls.framework; sourceTree = "<group>"; };
+		051D86B82173989B0045ED12 /* BFCField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFCField.swift; sourceTree = "<group>"; };
 		05D2C9D42173740300BC98A1 /* BattleFieldCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BattleFieldCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D2C9D72173740300BC98A1 /* BattleFieldCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleFieldCore.h; sourceTree = "<group>"; };
 		05D2C9D82173740300BC98A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				05078B3721738D9F00C17BA9 /* BFCMachine.swift */,
 				05078B3521738D9F00C17BA9 /* BFCNaturalObject.swift */,
 				05078B3621738D9F00C17BA9 /* BFCObject.swift */,
+				051D86B82173989B0045ED12 /* BFCField.swift */,
 			);
 			name = Source;
 			path = ../Source;
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051D86B92173989B0045ED12 /* BFCField.swift in Sources */,
 				05078B3A21738D9F00C17BA9 /* BFCMachine.swift in Sources */,
 				05078B3921738D9F00C17BA9 /* BFCObject.swift in Sources */,
 				05078B3821738D9F00C17BA9 /* BFCNaturalObject.swift in Sources */,

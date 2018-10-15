@@ -14,7 +14,7 @@ Copyright (C) [Steel Wheels Project](http://steelwheels.github.io). This softwar
 * [xcode](https://developer.apple.com/xcode/) version 10.0
 
 ## Document
-* [Game System](https://github.com/steelwheels/BattleFieldCode/blob/master/Document/Overview.md): The over view of the game system
+* [Game System](https://github.com/steelwheels/BattleFieldCode/blob/master/Document/GameSystem.md): The over view of the game system
 * [User interface design](https://github.com/steelwheels/BattleFieldCode/blob/master/Document/UserInterface.md): Design of the user interface
 
 ## Software

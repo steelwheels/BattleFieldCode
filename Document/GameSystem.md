@@ -8,6 +8,7 @@ The user controls them by the program implemented by [JavaScript](https://en.wik
 
 ## Field
 The battle field is defined as 2 dimensional area which has limited width and height.
+The field is separated by a grid pattern.
 Here is an example of battle field which has 5x5 area.
 ````
           <north>
@@ -19,6 +20,14 @@ Here is an example of battle field which has 5x5 area.
           <south>
 ````
 
+There are some properties:
+
+|Property      |Unit  |Description                        |
+|:----         |:---- |:---                               |
+|width         |km    |Width of the field                 |
+|depth         |km    |Depth of the field                 |
+|x_num         |-     |Number of grids for width direction |
+|y_num         |-     |Number of grids for depth direction |
 
 ## Team
 User can control machines a their team.
@@ -33,13 +42,14 @@ There are some kind of the machine:
 |:----       |:----                                  |
 |Tank        |Run on the field. The tank has 1 missile pod |
 
-### Specification of the machines
+### Properties of the machines
 The machine has following attributes:
 
-|Specification |Description                           |
-|:----         |:----                                 |
-|Fuel capacity |Max capacity of the fuel tanks        |
-|Fuel consumption |The fuel usage to move unit range. |
+|Property      |Unit    |Description                           |
+|:----         |:---    |:----                                 |
+|Speed         |km/h    |Speed                                 |
+|Fuel capacity |L       |Max capacity of the fuel tanks        |
+|Fuel consumption |L/km |The fuel usage to move unit range.    |
 
 ### Actions of the machines
 The machine has following actions:

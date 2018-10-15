@@ -9,14 +9,19 @@ import Foundation
 
 public class BFCField
 {
+	private var mWidth:	Double
+	private var mDepth:	Double
 	private var mField:	Array<Array<BFCObject?>>
 
-	public init(width w: Int, height h: Int){
+	public init(width w: Double, depth d: Double, xNum x: Int, yNum y: Int){
+		mWidth	= w
+		mDepth	= d
+
 		mField = [[]]
 		/* Allocate 2 dimension array */
-		for _ in 0..<h {
+		for _ in 0..<y {
 			var arr: Array<BFCObject?> = []
-			for _ in 0..<w { arr.append(nil) }
+			for _ in 0..<x { arr.append(nil) }
 			mField.append(arr)
 		}
 	}

@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		050D938721737C89006E691D /* BFCObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D938621737C89006E691D /* BFCObject.swift */; };
+		0502FD77219FF3CF00BE506E /* BFCObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502FD76219FF3CE00BE506E /* BFCObject.swift */; };
 		050D9389217384D3006E691D /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050D9388217384D3006E691D /* KiwiControls.framework */; };
-		050D938B217385CE006E691D /* BFCNaturalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D938A217385CE006E691D /* BFCNaturalObject.swift */; };
 		050D938D217388BF006E691D /* BFCMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D938C217388BF006E691D /* BFCMachine.swift */; };
+		052D1F8B21A05BA100B95922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D1F8A21A05BA100B95922 /* AppDelegate.swift */; };
+		052D1F8D21A05BA100B95922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D1F8C21A05BA100B95922 /* ViewController.swift */; };
+		052D1F8F21A05BA200B95922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052D1F8E21A05BA200B95922 /* Assets.xcassets */; };
+		052D1F9221A05BA200B95922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D1F9021A05BA200B95922 /* Main.storyboard */; };
+		052D1F9A21A05BB700B95922 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590AE01217370B30076C648 /* CoconutData.framework */; };
+		052D1F9B21A05BC600B95922 /* KiwiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EA5F30217504F700AF9AB8 /* KiwiEngine.framework */; };
+		052D1F9C21A05BC900B95922 /* KiwiLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EA5F322175051100AF9AB8 /* KiwiLibrary.framework */; };
+		052D1F9D21A05BD100B95922 /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050D9388217384D3006E691D /* KiwiControls.framework */; };
+		052D1F9F21A05BE900B95922 /* BattleFieldCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052D1F9E21A05BE900B95922 /* BattleFieldCore.framework */; };
 		0555A04821736F2D00CD7BD3 /* BattleFieldCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0555A04621736F2D00CD7BD3 /* BattleFieldCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0573A217217395F20090B6A9 /* BFCField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573A216217395F20090B6A9 /* BFCField.swift */; };
 		0590AE02217370B30076C648 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590AE01217370B30076C648 /* CoconutData.framework */; };
+		05D72FB721778BAE004B6493 /* BFCCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D72FB621778BAE004B6493 /* BFCCompiler.swift */; };
 		05EA5F2F217504B900AF9AB8 /* BFCTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EA5F2E217504B900AF9AB8 /* BFCTeam.swift */; };
 		05EA5F31217504F700AF9AB8 /* KiwiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EA5F30217504F700AF9AB8 /* KiwiEngine.framework */; };
 		05EA5F332175051100AF9AB8 /* KiwiLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EA5F322175051100AF9AB8 /* KiwiLibrary.framework */; };
+		05EF35EB2177A4C9009233CA /* machine.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05EF35E82177A486009233CA /* machine.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		052D1F9821A05BA900B95922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0555A03A21736F2D00CD7BD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0590AE03217371490076C648;
+			remoteInfo = Install;
+		};
 		0590AE07217371520076C648 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0555A03A21736F2D00CD7BD3 /* Project object */;
@@ -29,22 +46,58 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		05EF35EA2177A4B3009233CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Script;
+			dstSubfolderSpec = 7;
+			files = (
+				05EF35EB2177A4C9009233CA /* machine.js in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		050D938621737C89006E691D /* BFCObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFCObject.swift; sourceTree = "<group>"; };
+		0502FD76219FF3CE00BE506E /* BFCObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFCObject.swift; sourceTree = "<group>"; };
 		050D9388217384D3006E691D /* KiwiControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiControls.framework; path = ../../../../Library/Frameworks/KiwiControls.framework; sourceTree = "<group>"; };
-		050D938A217385CE006E691D /* BFCNaturalObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFCNaturalObject.swift; sourceTree = "<group>"; };
 		050D938C217388BF006E691D /* BFCMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFCMachine.swift; sourceTree = "<group>"; };
+		052D1F8821A05BA000B95922 /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		052D1F8A21A05BA100B95922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		052D1F8C21A05BA100B95922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		052D1F8E21A05BA200B95922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		052D1F9121A05BA200B95922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		052D1F9321A05BA200B95922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052D1F9421A05BA200B95922 /* UnitTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnitTest.entitlements; sourceTree = "<group>"; };
+		052D1F9E21A05BE900B95922 /* BattleFieldCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BattleFieldCore.framework; path = ../../../../Library/Frameworks/BattleFieldCore.framework; sourceTree = "<group>"; };
 		0555A04321736F2D00CD7BD3 /* BattleFieldCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BattleFieldCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0555A04621736F2D00CD7BD3 /* BattleFieldCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleFieldCore.h; sourceTree = "<group>"; };
 		0555A04721736F2D00CD7BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0573A216217395F20090B6A9 /* BFCField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFCField.swift; sourceTree = "<group>"; };
 		0590AE01217370B30076C648 /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../../Library/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
+		05D72FB621778BAE004B6493 /* BFCCompiler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFCCompiler.swift; sourceTree = "<group>"; };
+		05DFB50D21A4557A000022DC /* empty.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = empty.js; sourceTree = "<group>"; };
+		05DFB50E21A46342000022DC /* hello.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = hello.js; sourceTree = "<group>"; };
 		05EA5F2E217504B900AF9AB8 /* BFCTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFCTeam.swift; sourceTree = "<group>"; };
 		05EA5F30217504F700AF9AB8 /* KiwiEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiEngine.framework; path = ../../../../Library/Frameworks/KiwiEngine.framework; sourceTree = "<group>"; };
 		05EA5F322175051100AF9AB8 /* KiwiLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiLibrary.framework; path = ../../../../Library/Frameworks/KiwiLibrary.framework; sourceTree = "<group>"; };
+		05EF35E82177A486009233CA /* machine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = machine.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		052D1F8521A05BA000B95922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D1F9F21A05BE900B95922 /* BattleFieldCore.framework in Frameworks */,
+				052D1F9A21A05BB700B95922 /* CoconutData.framework in Frameworks */,
+				052D1F9B21A05BC600B95922 /* KiwiEngine.framework in Frameworks */,
+				052D1F9C21A05BC900B95922 /* KiwiLibrary.framework in Frameworks */,
+				052D1F9D21A05BD100B95922 /* KiwiControls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0555A04021736F2D00CD7BD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,10 +112,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		052D1F8321A05B4700B95922 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				052D1F8921A05BA100B95922 /* UnitTest */,
+			);
+			name = Test;
+			path = ../Test;
+			sourceTree = "<group>";
+		};
+		052D1F8921A05BA100B95922 /* UnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				052D1FA021A05CEC00B95922 /* OSX */,
+			);
+			path = UnitTest;
+			sourceTree = "<group>";
+		};
+		052D1FA021A05CEC00B95922 /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				052D1F8A21A05BA100B95922 /* AppDelegate.swift */,
+				052D1F8C21A05BA100B95922 /* ViewController.swift */,
+				052D1F8E21A05BA200B95922 /* Assets.xcassets */,
+				052D1F9021A05BA200B95922 /* Main.storyboard */,
+				052D1F9321A05BA200B95922 /* Info.plist */,
+				052D1F9421A05BA200B95922 /* UnitTest.entitlements */,
+			);
+			path = OSX;
+			sourceTree = "<group>";
+		};
 		0555A03921736F2D00CD7BD3 = {
 			isa = PBXGroup;
 			children = (
 				0555A04E21736F3A00CD7BD3 /* Source */,
+				05EF35E62177A410009233CA /* Resource */,
+				05DFB50C21A4555F000022DC /* Sample */,
+				052D1F8321A05B4700B95922 /* Test */,
 				0555A04521736F2D00CD7BD3 /* OSX */,
 				0555A04421736F2D00CD7BD3 /* Products */,
 				0590AE00217370B20076C648 /* Frameworks */,
@@ -73,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				0555A04321736F2D00CD7BD3 /* BattleFieldCore.framework */,
+				052D1F8821A05BA000B95922 /* UnitTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,11 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				0555A04621736F2D00CD7BD3 /* BattleFieldCore.h */,
-				0573A216217395F20090B6A9 /* BFCField.swift */,
-				05EA5F2E217504B900AF9AB8 /* BFCTeam.swift */,
-				050D938C217388BF006E691D /* BFCMachine.swift */,
-				050D938A217385CE006E691D /* BFCNaturalObject.swift */,
-				050D938621737C89006E691D /* BFCObject.swift */,
+				05EEDEAA217788C700FFC559 /* System */,
+				05EEDEAB2177890200FFC559 /* Team */,
+				05D72FB521778B83004B6493 /* Compiler */,
 			);
 			name = Source;
 			path = ../Source;
@@ -102,12 +187,69 @@
 		0590AE00217370B20076C648 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				052D1F9E21A05BE900B95922 /* BattleFieldCore.framework */,
 				05EA5F322175051100AF9AB8 /* KiwiLibrary.framework */,
 				05EA5F30217504F700AF9AB8 /* KiwiEngine.framework */,
 				050D9388217384D3006E691D /* KiwiControls.framework */,
 				0590AE01217370B30076C648 /* CoconutData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05D72FB521778B83004B6493 /* Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				05D72FB621778BAE004B6493 /* BFCCompiler.swift */,
+			);
+			name = Compiler;
+			path = ../Source/Compiler;
+			sourceTree = SOURCE_ROOT;
+		};
+		05DFB50C21A4555F000022DC /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				05DFB50E21A46342000022DC /* hello.js */,
+				05DFB50D21A4557A000022DC /* empty.js */,
+			);
+			name = Sample;
+			path = ../Sample;
+			sourceTree = "<group>";
+		};
+		05EEDEAA217788C700FFC559 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				0573A216217395F20090B6A9 /* BFCField.swift */,
+				0502FD76219FF3CE00BE506E /* BFCObject.swift */,
+			);
+			name = System;
+			path = ../Source/System;
+			sourceTree = SOURCE_ROOT;
+		};
+		05EEDEAB2177890200FFC559 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				05EA5F2E217504B900AF9AB8 /* BFCTeam.swift */,
+				050D938C217388BF006E691D /* BFCMachine.swift */,
+			);
+			name = Team;
+			path = ../Source/Team;
+			sourceTree = SOURCE_ROOT;
+		};
+		05EF35E62177A410009233CA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				05EF35E72177A43F009233CA /* Script */,
+			);
+			name = Resource;
+			path = ../Resource;
+			sourceTree = SOURCE_ROOT;
+		};
+		05EF35E72177A43F009233CA /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				05EF35E82177A486009233CA /* machine.js */,
+			);
+			path = Script;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +284,24 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
+		052D1F8721A05BA000B95922 /* UnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052D1F9521A05BA200B95922 /* Build configuration list for PBXNativeTarget "UnitTest" */;
+			buildPhases = (
+				052D1F8421A05BA000B95922 /* Sources */,
+				052D1F8521A05BA000B95922 /* Frameworks */,
+				052D1F8621A05BA000B95922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052D1F9921A05BA900B95922 /* PBXTargetDependency */,
+			);
+			name = UnitTest;
+			productName = UnitTest;
+			productReference = 052D1F8821A05BA000B95922 /* UnitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0555A04221736F2D00CD7BD3 /* BattleFieldCore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0555A04B21736F2D00CD7BD3 /* Build configuration list for PBXNativeTarget "BattleFieldCore" */;
@@ -149,7 +309,7 @@
 				0555A03E21736F2D00CD7BD3 /* Headers */,
 				0555A03F21736F2D00CD7BD3 /* Sources */,
 				0555A04021736F2D00CD7BD3 /* Frameworks */,
-				0555A04121736F2D00CD7BD3 /* Resources */,
+				05EF35EA2177A4B3009233CA /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -166,9 +326,18 @@
 		0555A03A21736F2D00CD7BD3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Steel Wheels Project";
 				TargetAttributes = {
+					052D1F8721A05BA000B95922 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
 					0555A04221736F2D00CD7BD3 = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
@@ -184,6 +353,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0555A03921736F2D00CD7BD3;
 			productRefGroup = 0555A04421736F2D00CD7BD3 /* Products */;
@@ -192,21 +362,33 @@
 			targets = (
 				0555A04221736F2D00CD7BD3 /* BattleFieldCore */,
 				0590AE03217371490076C648 /* Install */,
+				052D1F8721A05BA000B95922 /* UnitTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0555A04121736F2D00CD7BD3 /* Resources */ = {
+		052D1F8621A05BA000B95922 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052D1F8F21A05BA200B95922 /* Assets.xcassets in Resources */,
+				052D1F9221A05BA200B95922 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		052D1F8421A05BA000B95922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D1F8D21A05BA100B95922 /* ViewController.swift in Sources */,
+				052D1F8B21A05BA100B95922 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0555A03F21736F2D00CD7BD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,14 +396,19 @@
 				0573A217217395F20090B6A9 /* BFCField.swift in Sources */,
 				050D938D217388BF006E691D /* BFCMachine.swift in Sources */,
 				05EA5F2F217504B900AF9AB8 /* BFCTeam.swift in Sources */,
-				050D938B217385CE006E691D /* BFCNaturalObject.swift in Sources */,
-				050D938721737C89006E691D /* BFCObject.swift in Sources */,
+				0502FD77219FF3CF00BE506E /* BFCObject.swift in Sources */,
+				05D72FB721778BAE004B6493 /* BFCCompiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		052D1F9921A05BA900B95922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0590AE03217371490076C648 /* Install */;
+			targetProxy = 052D1F9821A05BA900B95922 /* PBXContainerItemProxy */;
+		};
 		0590AE08217371520076C648 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0555A04221736F2D00CD7BD3 /* BattleFieldCore */;
@@ -229,7 +416,70 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		052D1F9021A05BA200B95922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052D1F9121A05BA200B95922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		052D1F9621A05BA200B95922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ../Test/UnitTest/OSX/UnitTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TR2DNF3P93;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_OPTIMIZATION_LEVEL = 2;
+				INFOPLIST_FILE = ../Test/UnitTest/OSX/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.steelwheels.UnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		052D1F9721A05BA200B95922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ../Test/UnitTest/OSX/UnitTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TR2DNF3P93;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_OPTIMIZATION_LEVEL = 2;
+				INFOPLIST_FILE = ../Test/UnitTest/OSX/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.steelwheels.UnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		0555A04921736F2D00CD7BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -446,6 +696,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		052D1F9521A05BA200B95922 /* Build configuration list for PBXNativeTarget "UnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D1F9621A05BA200B95922 /* Debug */,
+				052D1F9721A05BA200B95922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0555A03D21736F2D00CD7BD3 /* Build configuration list for PBXProject "BattleFieldCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

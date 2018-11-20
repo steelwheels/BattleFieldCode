@@ -11,13 +11,10 @@ import Foundation
 
 public class BFCTeam
 {
-	public var context:	KEContext
+	private var mMachines:	Array<BFCMachine>
 
 	public init(){
-		guard let vm = JSVirtualMachine() else {
-			fatalError("Failed to allocate JavaScript VM")
-		}
-		context = KEContext(virtualMachine: vm)
+		mMachines = []
 	}
 }
 

@@ -1,0 +1,3 @@
+
+var machine = new Machine() ;
+

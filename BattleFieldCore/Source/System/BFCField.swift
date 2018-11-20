@@ -25,5 +25,8 @@ public class BFCField
 			mField.append(arr)
 		}
 	}
+
+	public var width: Double  { get { return mWidth }}
+	public var depth: Double  { get { return mDepth }}
 }
 

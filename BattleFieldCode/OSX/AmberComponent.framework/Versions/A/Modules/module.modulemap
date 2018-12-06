@@ -1,0 +1,11 @@
+framework module AmberComponent {
+  umbrella header "AmberComponent.h"
+
+  export *
+  module * { export * }
+}
+
+module AmberComponent.Swift {
+    header "AmberComponent-Swift.h"
+    requires objc
+}

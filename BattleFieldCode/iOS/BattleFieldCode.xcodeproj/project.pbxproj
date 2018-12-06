@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0515727D21B9759200B28DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0515727B21B9759200B28DFA /* AppDelegate.swift */; };
+		0515727E21B9759200B28DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0515727C21B9759200B28DFA /* ViewController.swift */; };
+		0515728521B975AF00B28DFA /* AmberComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515728021B975AF00B28DFA /* AmberComponent.framework */; };
+		0515728621B975AF00B28DFA /* AmberCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515728121B975AF00B28DFA /* AmberCore.framework */; };
+		0515728721B975AF00B28DFA /* CoconutDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515728221B975AF00B28DFA /* CoconutDatabase.framework */; };
+		0515728821B975AF00B28DFA /* BattleFieldCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515728321B975AF00B28DFA /* BattleFieldCore.framework */; };
+		0515728921B975AF00B28DFA /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515728421B975AF00B28DFA /* CoconutData.framework */; };
+		0515728E21B975C100B28DFA /* KiwiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515728A21B975C100B28DFA /* KiwiEngine.framework */; };
+		0515728F21B975C100B28DFA /* KiwiObject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515728B21B975C100B28DFA /* KiwiObject.framework */; };
+		0515729021B975C100B28DFA /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515728C21B975C100B28DFA /* KiwiControls.framework */; };
+		0515729121B975C100B28DFA /* KiwiLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0515728D21B975C100B28DFA /* KiwiLibrary.framework */; };
+		0515729321B977B200B28DFA /* KiwiControls.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728C21B975C100B28DFA /* KiwiControls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0515729421B977B200B28DFA /* KiwiEngine.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728A21B975C100B28DFA /* KiwiEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0515729521B977B200B28DFA /* KiwiLibrary.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728D21B975C100B28DFA /* KiwiLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0515729621B977B200B28DFA /* KiwiObject.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728B21B975C100B28DFA /* KiwiObject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0515729721B977B200B28DFA /* AmberComponent.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728021B975AF00B28DFA /* AmberComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0515729821B977B200B28DFA /* AmberCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728121B975AF00B28DFA /* AmberCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0515729921B977B300B28DFA /* BattleFieldCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728321B975AF00B28DFA /* BattleFieldCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0515729A21B977B300B28DFA /* CoconutData.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728421B975AF00B28DFA /* CoconutData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0515729B21B977B300B28DFA /* CoconutDatabase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728221B975AF00B28DFA /* CoconutDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		055E105421B96C7C00B5C61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055E105221B96C7C00B5C61F /* Main.storyboard */; };
+		055E105621B96C7D00B5C61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055E105521B96C7D00B5C61F /* Assets.xcassets */; };
+		055E105921B96C7D00B5C61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055E105721B96C7D00B5C61F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0515729221B977A500B28DFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0515729321B977B200B28DFA /* KiwiControls.framework in CopyFiles */,
+				0515729421B977B200B28DFA /* KiwiEngine.framework in CopyFiles */,
+				0515729521B977B200B28DFA /* KiwiLibrary.framework in CopyFiles */,
+				0515729621B977B200B28DFA /* KiwiObject.framework in CopyFiles */,
+				0515729721B977B200B28DFA /* AmberComponent.framework in CopyFiles */,
+				0515729821B977B200B28DFA /* AmberCore.framework in CopyFiles */,
+				0515729921B977B300B28DFA /* BattleFieldCore.framework in CopyFiles */,
+				0515729A21B977B300B28DFA /* CoconutData.framework in CopyFiles */,
+				0515729B21B977B300B28DFA /* CoconutDatabase.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0515727A21B9759100B28DFA /* BattleFieldCode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BattleFieldCode-Bridging-Header.h"; sourceTree = "<group>"; };
+		0515727B21B9759200B28DFA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0515727C21B9759200B28DFA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0515728021B975AF00B28DFA /* AmberComponent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmberComponent.framework; path = ../../../../local/Frameworks/AmberComponent.framework; sourceTree = "<group>"; };
+		0515728121B975AF00B28DFA /* AmberCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmberCore.framework; path = ../../../../local/Frameworks/AmberCore.framework; sourceTree = "<group>"; };
+		0515728221B975AF00B28DFA /* CoconutDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutDatabase.framework; path = ../../../../local/Frameworks/CoconutDatabase.framework; sourceTree = "<group>"; };
+		0515728321B975AF00B28DFA /* BattleFieldCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BattleFieldCore.framework; path = ../../../../local/Frameworks/BattleFieldCore.framework; sourceTree = "<group>"; };
+		0515728421B975AF00B28DFA /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../../local/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
+		0515728A21B975C100B28DFA /* KiwiEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiEngine.framework; path = ../../../../local/Frameworks/KiwiEngine.framework; sourceTree = "<group>"; };
+		0515728B21B975C100B28DFA /* KiwiObject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiObject.framework; path = ../../../../local/Frameworks/KiwiObject.framework; sourceTree = "<group>"; };
+		0515728C21B975C100B28DFA /* KiwiControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiControls.framework; path = ../../../../local/Frameworks/KiwiControls.framework; sourceTree = "<group>"; };
+		0515728D21B975C100B28DFA /* KiwiLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiLibrary.framework; path = ../../../../local/Frameworks/KiwiLibrary.framework; sourceTree = "<group>"; };
+		055E104B21B96C7C00B5C61F /* BattleFieldCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleFieldCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		055E105321B96C7C00B5C61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		055E105521B96C7D00B5C61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		055E105821B96C7D00B5C61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		055E105A21B96C7D00B5C61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		055E104821B96C7C00B5C61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0515728E21B975C100B28DFA /* KiwiEngine.framework in Frameworks */,
+				0515728F21B975C100B28DFA /* KiwiObject.framework in Frameworks */,
+				0515729021B975C100B28DFA /* KiwiControls.framework in Frameworks */,
+				0515729121B975C100B28DFA /* KiwiLibrary.framework in Frameworks */,
+				0515728521B975AF00B28DFA /* AmberComponent.framework in Frameworks */,
+				0515728621B975AF00B28DFA /* AmberCore.framework in Frameworks */,
+				0515728721B975AF00B28DFA /* CoconutDatabase.framework in Frameworks */,
+				0515728821B975AF00B28DFA /* BattleFieldCore.framework in Frameworks */,
+				0515728921B975AF00B28DFA /* CoconutData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0515727921B9756E00B28DFA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0515727B21B9759200B28DFA /* AppDelegate.swift */,
+				0515727C21B9759200B28DFA /* ViewController.swift */,
+				0515727A21B9759100B28DFA /* BattleFieldCode-Bridging-Header.h */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		0515727F21B975AE00B28DFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0515728C21B975C100B28DFA /* KiwiControls.framework */,
+				0515728A21B975C100B28DFA /* KiwiEngine.framework */,
+				0515728D21B975C100B28DFA /* KiwiLibrary.framework */,
+				0515728B21B975C100B28DFA /* KiwiObject.framework */,
+				0515728021B975AF00B28DFA /* AmberComponent.framework */,
+				0515728121B975AF00B28DFA /* AmberCore.framework */,
+				0515728321B975AF00B28DFA /* BattleFieldCore.framework */,
+				0515728421B975AF00B28DFA /* CoconutData.framework */,
+				0515728221B975AF00B28DFA /* CoconutDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		055E104221B96C7C00B5C61F = {
+			isa = PBXGroup;
+			children = (
+				0515727921B9756E00B28DFA /* Source */,
+				055E104D21B96C7C00B5C61F /* BattleFieldCode */,
+				055E104C21B96C7C00B5C61F /* Products */,
+				0515727F21B975AE00B28DFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		055E104C21B96C7C00B5C61F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				055E104B21B96C7C00B5C61F /* BattleFieldCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		055E104D21B96C7C00B5C61F /* BattleFieldCode */ = {
+			isa = PBXGroup;
+			children = (
+				055E105221B96C7C00B5C61F /* Main.storyboard */,
+				055E105521B96C7D00B5C61F /* Assets.xcassets */,
+				055E105721B96C7D00B5C61F /* LaunchScreen.storyboard */,
+				055E105A21B96C7D00B5C61F /* Info.plist */,
+			);
+			path = BattleFieldCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		055E104A21B96C7C00B5C61F /* BattleFieldCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 055E105D21B96C7D00B5C61F /* Build configuration list for PBXNativeTarget "BattleFieldCode" */;
+			buildPhases = (
+				055E104721B96C7C00B5C61F /* Sources */,
+				055E104821B96C7C00B5C61F /* Frameworks */,
+				055E104921B96C7C00B5C61F /* Resources */,
+				0515729221B977A500B28DFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleFieldCode;
+			productName = BattleFieldCode;
+			productReference = 055E104B21B96C7C00B5C61F /* BattleFieldCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		055E104321B96C7C00B5C61F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Steel Wheels Project";
+				TargetAttributes = {
+					055E104A21B96C7C00B5C61F = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 055E104621B96C7C00B5C61F /* Build configuration list for PBXProject "BattleFieldCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 055E104221B96C7C00B5C61F;
+			productRefGroup = 055E104C21B96C7C00B5C61F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				055E104A21B96C7C00B5C61F /* BattleFieldCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		055E104921B96C7C00B5C61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055E105921B96C7D00B5C61F /* LaunchScreen.storyboard in Resources */,
+				055E105621B96C7D00B5C61F /* Assets.xcassets in Resources */,
+				055E105421B96C7C00B5C61F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		055E104721B96C7C00B5C61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0515727E21B9759200B28DFA /* ViewController.swift in Sources */,
+				0515727D21B9759200B28DFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		055E105221B96C7C00B5C61F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				055E105321B96C7C00B5C61F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		055E105721B96C7D00B5C61F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				055E105821B96C7D00B5C61F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		055E105B21B96C7D00B5C61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		055E105C21B96C7D00B5C61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		055E105E21B96C7D00B5C61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TR2DNF3P93;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/local/Frameworks";
+				INFOPLIST_FILE = BattleFieldCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.steelwheels.BattleFieldCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../Source/BattleFieldCode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		055E105F21B96C7D00B5C61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TR2DNF3P93;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/local/Frameworks";
+				INFOPLIST_FILE = BattleFieldCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.steelwheels.BattleFieldCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../Source/BattleFieldCode-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		055E104621B96C7C00B5C61F /* Build configuration list for PBXProject "BattleFieldCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055E105B21B96C7D00B5C61F /* Debug */,
+				055E105C21B96C7D00B5C61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		055E105D21B96C7D00B5C61F /* Build configuration list for PBXNativeTarget "BattleFieldCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055E105E21B96C7D00B5C61F /* Debug */,
+				055E105F21B96C7D00B5C61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 055E104321B96C7C00B5C61F /* Project object */;
+}

@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05078B3821738D9F00C17BA9 /* BFCNaturalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05078B3521738D9F00C17BA9 /* BFCNaturalObject.swift */; };
 		05078B3921738D9F00C17BA9 /* BFCObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05078B3621738D9F00C17BA9 /* BFCObject.swift */; };
 		05078B3A21738D9F00C17BA9 /* BFCMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05078B3721738D9F00C17BA9 /* BFCMachine.swift */; };
 		05078B3D21738DC700C17BA9 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05078B3C21738DC700C17BA9 /* CoconutData.framework */; };
 		05078B3F21738DE100C17BA9 /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05078B3E21738DE100C17BA9 /* KiwiControls.framework */; };
 		051D86B92173989B0045ED12 /* BFCField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051D86B82173989B0045ED12 /* BFCField.swift */; };
+		05819C4721B9851100064080 /* BFCTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05819C4621B9851100064080 /* BFCTeam.swift */; };
 		05828946217789F700CB37A1 /* KiwiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05828945217789F700CB37A1 /* KiwiEngine.framework */; };
 		0582894821778A0900CB37A1 /* KiwiLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0582894721778A0900CB37A1 /* KiwiLibrary.framework */; };
 		0582894B21778AD400CB37A1 /* BFCCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0582894A21778AD400CB37A1 /* BFCCompiler.swift */; };
@@ -30,12 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05078B3521738D9F00C17BA9 /* BFCNaturalObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFCNaturalObject.swift; sourceTree = "<group>"; };
 		05078B3621738D9F00C17BA9 /* BFCObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFCObject.swift; sourceTree = "<group>"; };
 		05078B3721738D9F00C17BA9 /* BFCMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFCMachine.swift; sourceTree = "<group>"; };
 		05078B3C21738DC700C17BA9 /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../../local/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
 		05078B3E21738DE100C17BA9 /* KiwiControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiControls.framework; path = ../../../../local/Frameworks/KiwiControls.framework; sourceTree = "<group>"; };
 		051D86B82173989B0045ED12 /* BFCField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFCField.swift; sourceTree = "<group>"; };
+		05819C4621B9851100064080 /* BFCTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFCTeam.swift; sourceTree = "<group>"; };
 		05828945217789F700CB37A1 /* KiwiEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiEngine.framework; path = ../../../../Library/Frameworks/KiwiEngine.framework; sourceTree = "<group>"; };
 		0582894721778A0900CB37A1 /* KiwiLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiLibrary.framework; path = ../../../../Library/Frameworks/KiwiLibrary.framework; sourceTree = "<group>"; };
 		0582894A21778AD400CB37A1 /* BFCCompiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFCCompiler.swift; sourceTree = "<group>"; };
@@ -75,7 +75,6 @@
 			children = (
 				051D86B82173989B0045ED12 /* BFCField.swift */,
 				05078B3621738D9F00C17BA9 /* BFCObject.swift */,
-				05078B3521738D9F00C17BA9 /* BFCNaturalObject.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -83,6 +82,7 @@
 		05828944217789A900CB37A1 /* Team */ = {
 			isa = PBXGroup;
 			children = (
+				05819C4621B9851100064080 /* BFCTeam.swift */,
 				05078B3721738D9F00C17BA9 /* BFCMachine.swift */,
 			);
 			path = Team;
@@ -237,8 +237,8 @@
 			files = (
 				051D86B92173989B0045ED12 /* BFCField.swift in Sources */,
 				05078B3A21738D9F00C17BA9 /* BFCMachine.swift in Sources */,
+				05819C4721B9851100064080 /* BFCTeam.swift in Sources */,
 				05078B3921738D9F00C17BA9 /* BFCObject.swift in Sources */,
-				05078B3821738D9F00C17BA9 /* BFCNaturalObject.swift in Sources */,
 				0582894B21778AD400CB37A1 /* BFCCompiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

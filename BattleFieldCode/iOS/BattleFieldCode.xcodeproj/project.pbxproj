@@ -27,6 +27,10 @@
 		0515729921B977B300B28DFA /* BattleFieldCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728321B975AF00B28DFA /* BattleFieldCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0515729A21B977B300B28DFA /* CoconutData.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728421B975AF00B28DFA /* CoconutData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0515729B21B977B300B28DFA /* CoconutDatabase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0515728221B975AF00B28DFA /* CoconutDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05412B8721BACB7100D6EA5F /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 05412B8621BACB7000D6EA5F /* Title.png */; };
+		05412B8A21BACB7800D6EA5F /* startup.amb in Resources */ = {isa = PBXBuildFile; fileRef = 05412B8921BACB7800D6EA5F /* startup.amb */; };
+		05412B8C21BACBAB00D6EA5F /* startup.amb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05412B8921BACB7800D6EA5F /* startup.amb */; };
+		05412B8E21BACBBF00D6EA5F /* Title.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05412B8621BACB7000D6EA5F /* Title.png */; };
 		055E105421B96C7C00B5C61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055E105221B96C7C00B5C61F /* Main.storyboard */; };
 		055E105621B96C7D00B5C61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055E105521B96C7D00B5C61F /* Assets.xcassets */; };
 		055E105921B96C7D00B5C61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055E105721B96C7D00B5C61F /* LaunchScreen.storyboard */; };
@@ -51,6 +55,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05412B8B21BACB8300D6EA5F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Script;
+			dstSubfolderSpec = 7;
+			files = (
+				05412B8C21BACBAB00D6EA5F /* startup.amb in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05412B8D21BACBB300D6EA5F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Images;
+			dstSubfolderSpec = 7;
+			files = (
+				05412B8E21BACBBF00D6EA5F /* Title.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +90,8 @@
 		0515728B21B975C100B28DFA /* KiwiObject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiObject.framework; path = ../../../../local/Frameworks/KiwiObject.framework; sourceTree = "<group>"; };
 		0515728C21B975C100B28DFA /* KiwiControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiControls.framework; path = ../../../../local/Frameworks/KiwiControls.framework; sourceTree = "<group>"; };
 		0515728D21B975C100B28DFA /* KiwiLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiLibrary.framework; path = ../../../../local/Frameworks/KiwiLibrary.framework; sourceTree = "<group>"; };
+		05412B8621BACB7000D6EA5F /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = "<group>"; };
+		05412B8921BACB7800D6EA5F /* startup.amb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = startup.amb; sourceTree = "<group>"; };
 		055E104B21B96C7C00B5C61F /* BattleFieldCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleFieldCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		055E105321B96C7C00B5C61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		055E105521B96C7D00B5C61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,10 +146,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		05412B8321BACB3400D6EA5F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				05412B8521BACB5900D6EA5F /* Images */,
+				05412B8421BACB4800D6EA5F /* Script */,
+			);
+			name = Resource;
+			path = ../Resource;
+			sourceTree = "<group>";
+		};
+		05412B8421BACB4800D6EA5F /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				05412B8921BACB7800D6EA5F /* startup.amb */,
+			);
+			path = Script;
+			sourceTree = "<group>";
+		};
+		05412B8521BACB5900D6EA5F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				05412B8621BACB7000D6EA5F /* Title.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		055E104221B96C7C00B5C61F = {
 			isa = PBXGroup;
 			children = (
 				0515727921B9756E00B28DFA /* Source */,
+				05412B8321BACB3400D6EA5F /* Resource */,
 				055E104D21B96C7C00B5C61F /* BattleFieldCode */,
 				055E104C21B96C7C00B5C61F /* Products */,
 				0515727F21B975AE00B28DFA /* Frameworks */,
@@ -160,6 +213,8 @@
 				055E104821B96C7C00B5C61F /* Frameworks */,
 				055E104921B96C7C00B5C61F /* Resources */,
 				0515729221B977A500B28DFA /* CopyFiles */,
+				05412B8B21BACB8300D6EA5F /* CopyFiles */,
+				05412B8D21BACBB300D6EA5F /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -211,6 +266,8 @@
 			files = (
 				055E105921B96C7D00B5C61F /* LaunchScreen.storyboard in Resources */,
 				055E105621B96C7D00B5C61F /* Assets.xcassets in Resources */,
+				05412B8721BACB7100D6EA5F /* Title.png in Resources */,
+				05412B8A21BACB7800D6EA5F /* startup.amb in Resources */,
 				055E105421B96C7C00B5C61F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

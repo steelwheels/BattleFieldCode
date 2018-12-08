@@ -4,6 +4,35 @@ startUp: Window {
 	app_logo: Image {
 		resource: string "Images/Title.png"
 	},
+	setting: Box {
+		alignment: Alignment top,
+		blue_team: Box {
+			alignment: Alignment left,
+			team_title: Label { text: string "Blue Team" },
+			file_selector: Box {
+			  alignment: Alignment top,
+			  script_name: Text {
+				  editable: bool false
+			  },
+				button: Button {
+				  title: string "Select File"
+				}
+			}
+		},
+		green_team: Box {
+			alignment: Alignment left,
+			team_title: Label { text: string "Green Team" },
+			file_selector: Box {
+			  alignment: Alignment top,
+			  script_name: Text {
+				  editable: bool false
+			  },
+				button: Button {
+				  title: string "Select File"
+				}
+			}
+		}
+	},
 	select_button: Button {
 		title: string "Select source script",
 		pressed: void event %{

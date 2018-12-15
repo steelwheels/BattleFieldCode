@@ -7,7 +7,7 @@ This software targets on macOS and iOS.
 This is an open source software. You can download every source code and documentation for this application.
 
 Here is the screenshot of startup screen:
-![Startup Screen](https://github.com/steelwheels/BattleFieldCode/tree/master/Document/ScreenShot/StartupScreen.jpg "Startup Screen").
+![Startup Screen](https://github.com/steelwheels/BattleFieldCode/blob/master/Document/ScreenShot/StartupScreen.jpg "Startup Screen").
 
 ## Copyright
 Copyright (C) [Steel Wheels Project](http://steelwheels.github.io). This software is distributed under [GNU General Public License version 2](https://opensource.org/licenses/GPL-2.0).

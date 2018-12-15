@@ -10,7 +10,7 @@ Here is the screenshots:
 
 ![Startup Screen for macOS](https://github.com/steelwheels/BattleFieldCode/blob/master/Document/ScreenShot/StartupScreen-macOS.jpg "Startup Screen for macOS")
 
-![Startup Screen for iOS](https://github.com/steelwheels/BattleFieldCode/blob/master/Document/ScreenShot/StartupScreen-iOS.jpg "Startup Screen for iOS").
+![Startup Screen for iOS](https://github.com/steelwheels/BattleFieldCode/blob/master/Document/ScreenShot/StartupScreen-iOS.png  "Startup Screen for iOS").
 
 ## Copyright
 Copyright (C) [Steel Wheels Project](http://steelwheels.github.io). This software is distributed under [GNU General Public License version 2](https://opensource.org/licenses/GPL-2.0).

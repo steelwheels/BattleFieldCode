@@ -1,35 +1,35 @@
 startUp: Window {
+	axis: Axis vertical,
 	alignment: Alignment center,
 
 	app_logo: Image {
 		resource: string "Images/Title.png"
 	},
 	setting: Box {
-		alignment: Alignment top,
+		axis: Axis horizontal,
+		alignment: Alignment center,
 		blue_team: Box {
-			alignment: Alignment left,
 			team_title: Label { text: string "Blue Team" },
 			file_selector: Box {
-			  alignment: Alignment top,
+			  axis: Axis horizontal,
 			  script_name: Text {
 				  editable: bool false
 			  },
-				button: Button {
+			  button: Button {
 				  title: string "Select File"
-				}
+			  }
 			}
 		},
 		green_team: Box {
-			alignment: Alignment left,
 			team_title: Label { text: string "Green Team" },
 			file_selector: Box {
-			  alignment: Alignment top,
+			  axis: Axis horizontal,
 			  script_name: Text {
 				  editable: bool false
 			  },
-				button: Button {
+			  button: Button {
 				  title: string "Select File"
-				}
+			  }
 			}
 		}
 	},

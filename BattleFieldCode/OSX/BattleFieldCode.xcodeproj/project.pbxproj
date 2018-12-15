@@ -25,6 +25,16 @@
 		05F4EA3221BACA270040AD9A /* Title.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05F4EA2D21BAC9F10040AD9A /* Title.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		057A989821C4D56A00BFDAFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05D6E99621B96B17009F16B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05D6E99D21B96B17009F16B1;
+			remoteInfo = BattleFieldCode;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		05F4EA2F21BAC9FD0040AD9A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -173,6 +183,24 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXLegacyTarget section */
+		057A989421C4D56000BFDAFC /* Install */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-f ../../Script/install_osx.mk";
+			buildConfigurationList = 057A989521C4D56000BFDAFC /* Build configuration list for PBXLegacyTarget "Install" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
+			dependencies = (
+				057A989921C4D56A00BFDAFC /* PBXTargetDependency */,
+			);
+			name = Install;
+			passBuildSettingsInEnvironment = 1;
+			productName = Install;
+		};
+/* End PBXLegacyTarget section */
+
 /* Begin PBXNativeTarget section */
 		05D6E99D21B96B17009F16B1 /* BattleFieldCode */ = {
 			isa = PBXNativeTarget;
@@ -203,6 +231,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Steel Wheels Project";
 				TargetAttributes = {
+					057A989421C4D56000BFDAFC = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					05D6E99D21B96B17009F16B1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -222,6 +253,7 @@
 			projectRoot = "";
 			targets = (
 				05D6E99D21B96B17009F16B1 /* BattleFieldCode */,
+				057A989421C4D56000BFDAFC /* Install */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +283,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		057A989921C4D56A00BFDAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05D6E99D21B96B17009F16B1 /* BattleFieldCode */;
+			targetProxy = 057A989821C4D56A00BFDAFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		05D6E9A721B96B18009F16B1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -263,6 +303,33 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		057A989621C4D56000BFDAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TR2DNF3P93;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		057A989721C4D56000BFDAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TR2DNF3P93;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		05D6E9AC21B96B18009F16B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -393,6 +460,7 @@
 				);
 				GCC_OPTIMIZATION_LEVEL = 2;
 				INFOPLIST_FILE = BattleFieldCode/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -419,6 +487,7 @@
 				);
 				GCC_OPTIMIZATION_LEVEL = 2;
 				INFOPLIST_FILE = BattleFieldCode/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -433,6 +502,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		057A989521C4D56000BFDAFC /* Build configuration list for PBXLegacyTarget "Install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057A989621C4D56000BFDAFC /* Debug */,
+				057A989721C4D56000BFDAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		05D6E99921B96B17009F16B1 /* Build configuration list for PBXProject "BattleFieldCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

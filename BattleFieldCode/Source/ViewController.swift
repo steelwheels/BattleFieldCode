@@ -33,10 +33,11 @@ class ViewController: AMCMultiViewController
 		/* Load startup page */
 		if let file = CNFilePath.URLForResourceFile(fileName: "startup", fileExtension: "amb", subdirectory: "Script") {
 			let application = AMCApplication.shared
+			let program     = application.program
 			let config      = application.config
 			config.doVerbose = true				// DEBUG
 			let console     = application.console
-			let subview = AMCSingleViewController(scriptURL: file, parentViewController: self, console: console, doVerbose: config.doVerbose)
+			let subview = AMCSingleViewController(scriptURL: file, parentViewController: self, program: program, console: console, doVerbose: config.doVerbose)
 			let idx = super.add(name: "startup", viewController: subview)
 			let _ = self.select(byIndex: idx)
 		} else {

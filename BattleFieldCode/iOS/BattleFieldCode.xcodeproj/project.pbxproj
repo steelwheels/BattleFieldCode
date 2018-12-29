@@ -34,6 +34,7 @@
 		055E105421B96C7C00B5C61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055E105221B96C7C00B5C61F /* Main.storyboard */; };
 		055E105621B96C7D00B5C61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055E105521B96C7D00B5C61F /* Assets.xcassets */; };
 		055E105921B96C7D00B5C61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055E105721B96C7D00B5C61F /* LaunchScreen.storyboard */; };
+		05A428BD21D74FBF0068DB5B /* manifest.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05A428BB21D74FB10068DB5B /* manifest.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +76,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05A428BC21D74FB90068DB5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				05A428BD21D74FBF0068DB5B /* manifest.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +108,7 @@
 		055E105521B96C7D00B5C61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		055E105821B96C7D00B5C61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		055E105A21B96C7D00B5C61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A428BB21D74FB10068DB5B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +161,7 @@
 		05412B8321BACB3400D6EA5F /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				05A428BB21D74FB10068DB5B /* manifest.json */,
 				05412B8521BACB5900D6EA5F /* Images */,
 				05412B8421BACB4800D6EA5F /* Script */,
 			);
@@ -215,6 +228,7 @@
 				0515729221B977A500B28DFA /* CopyFiles */,
 				05412B8B21BACB8300D6EA5F /* CopyFiles */,
 				05412B8D21BACBB300D6EA5F /* CopyFiles */,
+				05A428BC21D74FB90068DB5B /* CopyFiles */,
 			);
 			buildRules = (
 			);

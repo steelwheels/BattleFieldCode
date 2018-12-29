@@ -13,6 +13,7 @@
 		0563EB6A21B97326006244DD /* KiwiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6921B97326006244DD /* KiwiEngine.framework */; };
 		0563EB6B21B97330006244DD /* AmberComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6221B9729E006244DD /* AmberComponent.framework */; };
 		0563EB6D21B97397006244DD /* CoconutDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6C21B97397006244DD /* CoconutDatabase.framework */; };
+		058F56CB21D74F8F002D4C71 /* manifest.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 058F56C921D74F69002D4C71 /* manifest.json */; };
 		05D6E9A221B96B17009F16B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6E9A121B96B17009F16B1 /* AppDelegate.swift */; };
 		05D6E9A421B96B17009F16B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6E9A321B96B17009F16B1 /* ViewController.swift */; };
 		05D6E9A621B96B18009F16B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D6E9A521B96B18009F16B1 /* Assets.xcassets */; };
@@ -36,6 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		058F56CA21D74F81002D4C71 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				058F56CB21D74F8F002D4C71 /* manifest.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05F4EA2F21BAC9FD0040AD9A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,6 +76,7 @@
 		0563EB6721B97304006244DD /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../../Library/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
 		0563EB6921B97326006244DD /* KiwiEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiEngine.framework; path = ../../../../Library/Frameworks/KiwiEngine.framework; sourceTree = "<group>"; };
 		0563EB6C21B97397006244DD /* CoconutDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutDatabase.framework; path = ../../../../Library/Frameworks/CoconutDatabase.framework; sourceTree = "<group>"; };
+		058F56C921D74F69002D4C71 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		05D6E99E21B96B17009F16B1 /* BattleFieldCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleFieldCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D6E9A121B96B17009F16B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05D6E9A321B96B17009F16B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +170,7 @@
 		05F4EA2921BAC8FC0040AD9A /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				058F56C921D74F69002D4C71 /* manifest.json */,
 				05F4EA2B21BAC9740040AD9A /* Script */,
 				05F4EA2A21BAC93C0040AD9A /* Images */,
 			);
@@ -211,6 +224,7 @@
 				05D6E99C21B96B17009F16B1 /* Resources */,
 				05F4EA2F21BAC9FD0040AD9A /* CopyFiles */,
 				05F4EA3121BACA170040AD9A /* CopyFiles */,
+				058F56CA21D74F81002D4C71 /* CopyFiles */,
 			);
 			buildRules = (
 			);

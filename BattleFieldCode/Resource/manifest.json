@@ -1,0 +1,7 @@
+{
+  "main_window": "startup",
+  "windows": {
+	  "startup": "Script/startup.amb"
+  }
+}
+

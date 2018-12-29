@@ -24,6 +24,8 @@
 		05F4EA2E21BAC9F10040AD9A /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F4EA2D21BAC9F10040AD9A /* Title.png */; };
 		05F4EA3021BACA0F0040AD9A /* startup.amb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05F4EA2C21BAC9E40040AD9A /* startup.amb */; };
 		05F4EA3221BACA270040AD9A /* Title.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05F4EA2D21BAC9F10040AD9A /* Title.png */; };
+		05FB71BC21D778EC00131BDC /* blue-machine.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05FB71B921D778CD00131BDC /* blue-machine.png */; };
+		05FB71BD21D778F600131BDC /* green-machine.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05FB71B821D778CD00131BDC /* green-machine.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 			dstSubfolderSpec = 7;
 			files = (
 				05F4EA3221BACA270040AD9A /* Title.png in CopyFiles */,
+				05FB71BC21D778EC00131BDC /* blue-machine.png in CopyFiles */,
+				05FB71BD21D778F600131BDC /* green-machine.png in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +93,8 @@
 		05D995C621BBE0D400911C3A /* BattleFieldCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BattleFieldCore.framework; path = ../../../../Library/Frameworks/BattleFieldCore.framework; sourceTree = "<group>"; };
 		05F4EA2C21BAC9E40040AD9A /* startup.amb */ = {isa = PBXFileReference; lastKnownFileType = text; path = startup.amb; sourceTree = "<group>"; };
 		05F4EA2D21BAC9F10040AD9A /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = "<group>"; };
+		05FB71B821D778CD00131BDC /* green-machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "green-machine.png"; path = "../../../Document/Images/green-machine.png"; sourceTree = "<group>"; };
+		05FB71B921D778CD00131BDC /* blue-machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue-machine.png"; path = "../../../Document/Images/blue-machine.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +187,8 @@
 		05F4EA2A21BAC93C0040AD9A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				05FB71B921D778CD00131BDC /* blue-machine.png */,
+				05FB71B821D778CD00131BDC /* green-machine.png */,
 				05F4EA2D21BAC9F10040AD9A /* Title.png */,
 			);
 			path = Images;

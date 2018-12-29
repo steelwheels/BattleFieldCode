@@ -3,7 +3,7 @@ startUp: Window {
 	alignment: Alignment center,
 
 	app_logo: Image {
-		resource: string "Images/Title.png"
+		resource: string "title"
 	},
 	setting: Box {
 		axis: Axis horizontal,

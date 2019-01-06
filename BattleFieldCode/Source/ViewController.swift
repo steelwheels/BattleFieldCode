@@ -33,11 +33,12 @@ class ViewController: AMCMultiViewController
 		/* Setup application */
 		let application = AMCApplication.shared
 		let context     = application.context
+		let console     = application.console
 		guard let baseurl = Bundle.main.resourceURL else {
-			NSLog("No resource URL at \(#function)")
+			console.error(string: "No resource URL at \(#function)")
 			return
 		}
-		let resource = AMCResource(baseURL: baseurl, context: context)
+		let resource = AMCResource(baseURL: baseurl, context: context, console: console)
 		if let err = AMCManifest.load(into: resource) {
 			NSLog("Failed to read manifest " + err.toString() + " at \(#function)")
 		}
@@ -46,7 +47,6 @@ class ViewController: AMCMultiViewController
 		/* Load startup page */
 		let program     = application.program
 		let config      = application.config
-		let console     = application.console
 		config.doVerbose = true				// DEBUG
 
 		let subview = AMCSingleViewController(viewName: "startup", parentViewController: self, program: program, console: console, doVerbose: config.doVerbose)

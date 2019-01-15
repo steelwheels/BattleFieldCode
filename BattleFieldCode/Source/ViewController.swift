@@ -49,9 +49,9 @@ class ViewController: AMCMultiViewController
 		let config      = application.config
 		config.doVerbose = true				// DEBUG
 
-		let subview = AMCSingleViewController(viewName: "startup", parentViewController: self, program: program, console: console, doVerbose: config.doVerbose)
-		let idx = super.add(name: "startup", viewController: subview)
-		let _ = self.select(byIndex: idx)
+		if !super.loadView(viewName: "startup", program: program, console: console, config: config) {
+			NSLog("Failed to load \"startup\"\n")
+		}
 	}
 }
 

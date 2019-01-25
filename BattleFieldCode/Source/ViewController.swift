@@ -49,7 +49,7 @@ class ViewController: AMCMultiViewController
 		let config      = application.config
 		config.doVerbose = true				// DEBUG
 
-		if !super.loadView(viewName: "startup", program: program, console: console, config: config) {
+		if !super.pushView(viewName: "startup", program: program, console: console, config: config) {
 			NSLog("Failed to load \"startup\"\n")
 		}
 	}

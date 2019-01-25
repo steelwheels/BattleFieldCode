@@ -39,7 +39,7 @@ startUp: Window {
 			var url = startUp.selectInputFile("Select Amber Script", "amb") ;
 			if(url != null){
 				console.log("URL =" + url.absoluteString + "\n")
-				var vid = startUp.loadView(url)
+				var vid = startUp.pushView(url)
 				if(vid != null){
 					console.log("vid =" + vid + "\n")
 					startUp.selectView(vid)
@@ -48,3 +48,4 @@ startUp: Window {
 		%}
 	}
 }
+

@@ -36,7 +36,7 @@ startUp: Window {
 	select_button: Button {
 		title: string "Select source script",
 		pressed: void event %{
-			var url = startUp.selectInputFile("Select Amber Script", "amb") ;
+			var url = application.windows.startUp.selectInputFile("Select Amber Script", "amb") ;
 			if(url != null){
 				console.log("URL =" + url.absoluteString + "\n")
 				var vid = startUp.pushView(url)

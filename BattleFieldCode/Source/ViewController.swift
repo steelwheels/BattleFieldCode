@@ -36,14 +36,6 @@ class ViewController: AMCMultiViewController
 		let console     = application.console
 		let config	= application.config
 
-		/* Define _boot object */
-		let bootobj = AMCBootObject.sharedObject(context: context)
-		let bootcmp = AMCBootObjectCompiler(console: console, config: config)
-		guard bootcmp.compile(context: context, bootObject: bootobj, console: console) else {
-			console.error(string: "/* Failed to compile boot object */\n")
-			return
-		}
-
 		/* Load built in manifest file */
 		guard let baseurl  = Bundle.main.resourceURL else {
 			console.error(string: "/* Failed to get resource URL */\n")
@@ -68,15 +60,15 @@ class ViewController: AMCMultiViewController
 
 		/* Compile the application */
 		let compiler = AMCApplicationCompiler(console: console, config: config)
-		guard compiler.compile(application: application, resource: resource) else {
-			CNLog(type: .Error, message: "Failed to compile application", place: #function)
-			return
-		}
+		compiler.postCompile(application: application, resource: resource)
 
 		/* Load startup page */
 		if let mainname = resource.mainWindowName() {
-			let program = application.program
-			if !super.pushView(viewName: mainname, program: program, console: console, config: config) {
+			if !self.hasViewController(name: mainname) {
+				let newview = AMCSingleViewController(viewName: mainname, parentViewController: self, doVerbose: config.doVerbose)
+				self.add(name: mainname, viewController: newview)
+			}
+			if !super.pushViewController(byName: mainname) {
 				console.error(string: "Failed to load \(mainname)\n")
 			}
 		}

@@ -14,6 +14,8 @@
 		0563EB6B21B97330006244DD /* AmberComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6221B9729E006244DD /* AmberComponent.framework */; };
 		0563EB6D21B97397006244DD /* CoconutDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6C21B97397006244DD /* CoconutDatabase.framework */; };
 		058F56CB21D74F8F002D4C71 /* manifest.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 058F56C921D74F69002D4C71 /* manifest.json */; };
+		05BBA643221DA37F00516B5D /* application.amb in Resources */ = {isa = PBXBuildFile; fileRef = 05BBA642221DA37F00516B5D /* application.amb */; };
+		05BBA644221DA4FF00516B5D /* application.amb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05BBA642221DA37F00516B5D /* application.amb */; };
 		05D6E9A221B96B17009F16B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6E9A121B96B17009F16B1 /* AppDelegate.swift */; };
 		05D6E9A421B96B17009F16B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6E9A321B96B17009F16B1 /* ViewController.swift */; };
 		05D6E9A621B96B18009F16B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D6E9A521B96B18009F16B1 /* Assets.xcassets */; };
@@ -56,6 +58,7 @@
 			dstSubfolderSpec = 7;
 			files = (
 				05F4EA3021BACA0F0040AD9A /* startup.amb in CopyFiles */,
+				05BBA644221DA4FF00516B5D /* application.amb in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		0563EB6921B97326006244DD /* KiwiEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiEngine.framework; path = ../../../../Library/Frameworks/KiwiEngine.framework; sourceTree = "<group>"; };
 		0563EB6C21B97397006244DD /* CoconutDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutDatabase.framework; path = ../../../../Library/Frameworks/CoconutDatabase.framework; sourceTree = "<group>"; };
 		058F56C921D74F69002D4C71 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		05BBA642221DA37F00516B5D /* application.amb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = application.amb; sourceTree = "<group>"; };
 		05D6E99E21B96B17009F16B1 /* BattleFieldCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleFieldCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D6E9A121B96B17009F16B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05D6E9A321B96B17009F16B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +201,7 @@
 		05F4EA2B21BAC9740040AD9A /* Script */ = {
 			isa = PBXGroup;
 			children = (
+				05BBA642221DA37F00516B5D /* application.amb */,
 				05F4EA2C21BAC9E40040AD9A /* startup.amb */,
 			);
 			path = Script;
@@ -258,6 +263,11 @@
 					};
 					05D6E99D21B96B17009F16B1 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -286,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05F4EA2E21BAC9F10040AD9A /* Title.png in Resources */,
+				05BBA643221DA37F00516B5D /* application.amb in Resources */,
 				05D6E9A621B96B18009F16B1 /* Assets.xcassets in Resources */,
 				05D6E9A921B96B18009F16B1 /* Main.storyboard in Resources */,
 			);

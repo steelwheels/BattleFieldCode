@@ -1,4 +1,5 @@
 {
+  "application": "Script/application.amb",
   "main_window": "startup",
   "windows": {
 	  "startup": "Script/startup.amb"
@@ -9,4 +10,3 @@
 	  "blue_machine": "Images/blue_machine.png"
   }
 }
-

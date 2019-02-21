@@ -1,0 +1,4 @@
+application: Application {
+	green_machine_url: URL "file:///dev/null",
+	blue_machine_url:  URL "file:///dev/null"
+}

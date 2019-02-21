@@ -1,51 +1,61 @@
 startUp: Window {
-	axis: Axis vertical,
-	alignment: Alignment center,
+  axis: Axis vertical,
+  alignment: Alignment center,
 
-	app_logo: Image {
-		resource: string "title"
+  app_logo: Image {
+    resource: string "title"
+  },
+  setting: Box {
+    axis: Axis horizontal,
+    alignment: Alignment center,
+    blue_team: Box {
+      team_title: Label { text: string "Blue Team" },
+      file_selector: Box {
+        axis: Axis horizontal,
+        script_name: Text {
+          editable: bool false,
+	  text: string listener(url: application.blue_machine_url) %{
+            return url.absoluteString ;
+          %}
 	},
-	setting: Box {
-		axis: Axis horizontal,
-		alignment: Alignment center,
-		blue_team: Box {
-			team_title: Label { text: string "Blue Team" },
-			file_selector: Box {
-			  axis: Axis horizontal,
-			  script_name: Text {
-				  editable: bool false
-			  },
-			  button: Button {
-				  title: string "Select File"
-			  }
-			}
-		},
-		green_team: Box {
-			team_title: Label { text: string "Green Team" },
-			file_selector: Box {
-			  axis: Axis horizontal,
-			  script_name: Text {
-				  editable: bool false
-			  },
-			  button: Button {
-				  title: string "Select File"
-			  }
-			}
-		}
+        button: Button {
+          title: string "Select File",
+          pressed: void event() %{
+            startUp.selectInputFile(["js"], function(url){
+              console.log("blue button pressed\n") ;
+              application.blue_machine_url = url ;
+            }) ;
+          %}
+        }
+      }
+    },
+    green_team: Box {
+      team_title: Label { text: string "Green Team" },
+      file_selector: Box {
+        axis: Axis horizontal,
+        script_name: Text {
+          editable: bool false,
+	  text: string listener(url: application.green_machine_url) %{
+            return url.absoluteString ;
+          %}
 	},
-	select_button: Button {
-		title: string "Select source script",
-		pressed: void event %{
-			var url = application.windows.startUp.selectInputFile("Select Amber Script", "amb") ;
-			if(url != null){
-				console.log("URL =" + url.absoluteString + "\n")
-				var vid = startUp.pushView(url)
-				if(vid != null){
-					console.log("vid =" + vid + "\n")
-					startUp.selectView(vid)
-				}
-			}
-		%}
+	button: Button {
+	  title: string "Select File",
+	  pressed: void event() %{
+            startUp.selectInputFile(["js"], function(url){
+              console.log("green button pressed\n") ;
+              application.green_machine_url = url ;
+            }) ;
+	  %}
 	}
+      }
+    }
+  },
+  select_button: Button {
+    title: string "Select source script",
+    pressed: void event() %{
+      console.log("Press button") ;
+    %}
+  }
 }
 

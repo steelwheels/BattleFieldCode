@@ -2,11 +2,12 @@
   "application": "Script/application.amb",
   "main_window": "startup",
   "windows": {
-	  "startup": "Script/startup.amb"
+	  "startup"  : "Script/startup.amb",
+	  "compiler" : "Script/compiler.amb"
   },
   "images": {
 	  "title": "Images/Title.png",
-	  "green_machine": "Images/green_machine.png",
-	  "blue_machine": "Images/blue_machine.png"
+	  "green_machine" : "Images/green_machine.png",
+	  "blue_machine"  : "Images/blue_machine.png"
   }
 }

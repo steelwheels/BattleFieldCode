@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053B9B64222041D800C06803 /* compiler.amb in Resources */ = {isa = PBXBuildFile; fileRef = 053B9B63222041D800C06803 /* compiler.amb */; };
+		053B9B652220421A00C06803 /* compiler.amb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 053B9B63222041D800C06803 /* compiler.amb */; };
 		0563EB6421B972B4006244DD /* AmberCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6321B972B4006244DD /* AmberCore.framework */; };
 		0563EB6621B972C8006244DD /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6521B972C8006244DD /* KiwiControls.framework */; };
 		0563EB6821B97304006244DD /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6721B97304006244DD /* CoconutData.framework */; };
@@ -57,6 +59,7 @@
 			dstPath = Script;
 			dstSubfolderSpec = 7;
 			files = (
+				053B9B652220421A00C06803 /* compiler.amb in CopyFiles */,
 				05F4EA3021BACA0F0040AD9A /* startup.amb in CopyFiles */,
 				05BBA644221DA4FF00516B5D /* application.amb in CopyFiles */,
 			);
@@ -77,6 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		053B9B63222041D800C06803 /* compiler.amb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = compiler.amb; sourceTree = "<group>"; };
 		0563EB6221B9729E006244DD /* AmberComponent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AmberComponent.framework; sourceTree = "<group>"; };
 		0563EB6321B972B4006244DD /* AmberCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmberCore.framework; path = ../../../../Library/Frameworks/AmberCore.framework; sourceTree = "<group>"; };
 		0563EB6521B972C8006244DD /* KiwiControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiControls.framework; path = ../../../../Library/Frameworks/KiwiControls.framework; sourceTree = "<group>"; };
@@ -203,6 +207,7 @@
 			children = (
 				05BBA642221DA37F00516B5D /* application.amb */,
 				05F4EA2C21BAC9E40040AD9A /* startup.amb */,
+				053B9B63222041D800C06803 /* compiler.amb */,
 			);
 			path = Script;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 				05F4EA2E21BAC9F10040AD9A /* Title.png in Resources */,
 				05BBA643221DA37F00516B5D /* application.amb in Resources */,
 				05D6E9A621B96B18009F16B1 /* Assets.xcassets in Resources */,
+				053B9B64222041D800C06803 /* compiler.amb in Resources */,
 				05D6E9A921B96B18009F16B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

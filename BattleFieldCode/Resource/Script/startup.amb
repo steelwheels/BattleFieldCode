@@ -15,7 +15,7 @@ startUp: Window {
         script_name: Text {
           editable: bool false,
 	  text: string listener(url: application.blue_machine_url) %{
-            return url.absoluteString ;
+	    return url.isValid ? url.absoluteString : "" ;
           %}
 	},
         button: Button {
@@ -36,7 +36,7 @@ startUp: Window {
         script_name: Text {
           editable: bool false,
 	  text: string listener(url: application.green_machine_url) %{
-            return url.absoluteString ;
+		  return url.isValid ? url.absoluteString : "" ;
           %}
 	},
 	button: Button {

@@ -1,0 +1,6 @@
+compiler: Window {
+  label0: Label %{
+    title: "Hello"
+  %}
+}
+

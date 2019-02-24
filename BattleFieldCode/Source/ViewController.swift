@@ -45,7 +45,8 @@ class ViewController: AMCMultiViewController
 			}
 
 			/* Setup log console */
-			CNLogSetup(console: console, doVerbose: config.doVerbose)
+			let loglevel: CNLogType = config.doVerbose ? .Flow : .Warning
+			CNLogSetup(console: console, logLevel: loglevel)
 
 			/* Load the application and main window */
 			let _ = AMCFileLoader.loadApplication(parentViewController: self, URL: baseurl)

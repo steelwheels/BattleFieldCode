@@ -14,10 +14,10 @@ startUp: Window {
         axis: Axis horizontal,
         script_name: Text {
           editable: bool false,
-	  text: string listener(url: application.blue_machine_url) %{
-	    return url.isValid ? url.absoluteString : "" ;
+	        text: string listener(url: application.blue_machine_url) %{
+	          return url.isValid ? url.absoluteString : "" ;
           %}
-	},
+	      },
         button: Button {
           title: string "Select File",
           pressed: void event() %{
@@ -35,27 +35,29 @@ startUp: Window {
         axis: Axis horizontal,
         script_name: Text {
           editable: bool false,
-	  text: string listener(url: application.green_machine_url) %{
-		  return url.isValid ? url.absoluteString : "" ;
+	        text: string listener(url: application.green_machine_url) %{
+		        return url.isValid ? url.absoluteString : "" ;
           %}
-	},
-	button: Button {
-	  title: string "Select File",
-	  pressed: void event() %{
+	      },
+        button: Button {
+	        title: string "Select File",
+	        pressed: void event() %{
             startUp.selectInputFile(["js"], function(url){
               console.log("green button pressed\n") ;
               application.green_machine_url = url ;
             }) ;
-	  %}
-	}
+	        %}
+	      }
       }
     }
   },
   select_button: Button {
     title: string "Select source script",
+    enable: bool listener(burl:application.blue_machine_url, gurl:application.green_machine_url) %{
+      return burl.isValid && gurl.isValid ;
+    %},
     pressed: void event() %{
-      console.log("Press button") ;
+      startUp.pushView("compiler") ;
     %}
   }
 }
-

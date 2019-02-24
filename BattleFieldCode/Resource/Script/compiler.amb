@@ -1,6 +1,5 @@
 compiler: Window {
-  label0: Label %{
-    title: "Hello"
-  %}
+  label0: Label {
+    text: string "Hello"
+  }
 }
-

@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0537CD82222AA91C00373614 /* BattleFieldCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D995C621BBE0D400911C3A /* BattleFieldCore.framework */; };
+		0537CD83222AA91C00373614 /* BattleFieldCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05D995C621BBE0D400911C3A /* BattleFieldCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0537CD86222AA91C00373614 /* KiwiObject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D995C321BBE0A800911C3A /* KiwiObject.framework */; };
+		0537CD87222AA91C00373614 /* KiwiObject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05D995C321BBE0A800911C3A /* KiwiObject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0537CD88222AA91C00373614 /* CoconutDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6C21B97397006244DD /* CoconutDatabase.framework */; };
+		0537CD89222AA91C00373614 /* CoconutDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6C21B97397006244DD /* CoconutDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0537CD8A222AA91C00373614 /* KiwiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6921B97326006244DD /* KiwiEngine.framework */; };
+		0537CD8B222AA91C00373614 /* KiwiEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6921B97326006244DD /* KiwiEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0537CD8C222AA91C00373614 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6721B97304006244DD /* CoconutData.framework */; };
+		0537CD8D222AA91C00373614 /* CoconutData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6721B97304006244DD /* CoconutData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0537CD8E222AA91C00373614 /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6521B972C8006244DD /* KiwiControls.framework */; };
+		0537CD8F222AA91C00373614 /* KiwiControls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6521B972C8006244DD /* KiwiControls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0537CD90222AA91C00373614 /* AmberCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6321B972B4006244DD /* AmberCore.framework */; };
+		0537CD91222AA91C00373614 /* AmberCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6321B972B4006244DD /* AmberCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0537CD97222AA96D00373614 /* AmberComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0537CD95222AA95D00373614 /* AmberComponent.framework */; };
+		0537CD98222AA96D00373614 /* AmberComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0537CD95222AA95D00373614 /* AmberComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0537CD9B222AA9AC00373614 /* KiwiLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0537CD99222AA9A800373614 /* KiwiLibrary.framework */; };
+		0537CD9C222AA9AC00373614 /* KiwiLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0537CD99222AA9A800373614 /* KiwiLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0537CD9E222AA9E300373614 /* Cobalt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0537CD9D222AA9E300373614 /* Cobalt.framework */; };
+		0537CD9F222AA9E600373614 /* Cobalt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0537CD9D222AA9E300373614 /* Cobalt.framework */; };
+		0537CDA0222AA9E600373614 /* Cobalt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0537CD9D222AA9E300373614 /* Cobalt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0537CDA2222AAA0700373614 /* CoconutShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0537CDA1222AAA0700373614 /* CoconutShell.framework */; };
+		0537CDA3222AAA0D00373614 /* CoconutShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0537CDA1222AAA0700373614 /* CoconutShell.framework */; };
+		0537CDA4222AAA0D00373614 /* CoconutShell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0537CDA1222AAA0700373614 /* CoconutShell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		053B9B64222041D800C06803 /* compiler.amb in Resources */ = {isa = PBXBuildFile; fileRef = 053B9B63222041D800C06803 /* compiler.amb */; };
 		053B9B652220421A00C06803 /* compiler.amb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 053B9B63222041D800C06803 /* compiler.amb */; };
-		0563EB6421B972B4006244DD /* AmberCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6321B972B4006244DD /* AmberCore.framework */; };
-		0563EB6621B972C8006244DD /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6521B972C8006244DD /* KiwiControls.framework */; };
-		0563EB6821B97304006244DD /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6721B97304006244DD /* CoconutData.framework */; };
-		0563EB6A21B97326006244DD /* KiwiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6921B97326006244DD /* KiwiEngine.framework */; };
-		0563EB6B21B97330006244DD /* AmberComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6221B9729E006244DD /* AmberComponent.framework */; };
-		0563EB6D21B97397006244DD /* CoconutDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0563EB6C21B97397006244DD /* CoconutDatabase.framework */; };
 		058F56CB21D74F8F002D4C71 /* manifest.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 058F56C921D74F69002D4C71 /* manifest.json */; };
 		05BBA643221DA37F00516B5D /* application.amb in Resources */ = {isa = PBXBuildFile; fileRef = 05BBA642221DA37F00516B5D /* application.amb */; };
 		05BBA644221DA4FF00516B5D /* application.amb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05BBA642221DA37F00516B5D /* application.amb */; };
@@ -22,9 +40,6 @@
 		05D6E9A421B96B17009F16B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6E9A321B96B17009F16B1 /* ViewController.swift */; };
 		05D6E9A621B96B18009F16B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D6E9A521B96B18009F16B1 /* Assets.xcassets */; };
 		05D6E9A921B96B18009F16B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D6E9A721B96B18009F16B1 /* Main.storyboard */; };
-		05D995C421BBE0A800911C3A /* KiwiLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D995C221BBE0A800911C3A /* KiwiLibrary.framework */; };
-		05D995C521BBE0A800911C3A /* KiwiObject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D995C321BBE0A800911C3A /* KiwiObject.framework */; };
-		05D995C721BBE0D400911C3A /* BattleFieldCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D995C621BBE0D400911C3A /* BattleFieldCore.framework */; };
 		05F4EA2E21BAC9F10040AD9A /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F4EA2D21BAC9F10040AD9A /* Title.png */; };
 		05F4EA3021BACA0F0040AD9A /* startup.amb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05F4EA2C21BAC9E40040AD9A /* startup.amb */; };
 		05F4EA3221BACA270040AD9A /* Title.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05F4EA2D21BAC9F10040AD9A /* Title.png */; };
@@ -43,6 +58,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0537CD94222AA91C00373614 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0537CD8D222AA91C00373614 /* CoconutData.framework in Embed Frameworks */,
+				0537CD8B222AA91C00373614 /* KiwiEngine.framework in Embed Frameworks */,
+				0537CD98222AA96D00373614 /* AmberComponent.framework in Embed Frameworks */,
+				0537CD8F222AA91C00373614 /* KiwiControls.framework in Embed Frameworks */,
+				0537CD9C222AA9AC00373614 /* KiwiLibrary.framework in Embed Frameworks */,
+				0537CD89222AA91C00373614 /* CoconutDatabase.framework in Embed Frameworks */,
+				0537CDA4222AAA0D00373614 /* CoconutShell.framework in Embed Frameworks */,
+				0537CD83222AA91C00373614 /* BattleFieldCore.framework in Embed Frameworks */,
+				0537CD87222AA91C00373614 /* KiwiObject.framework in Embed Frameworks */,
+				0537CD91222AA91C00373614 /* AmberCore.framework in Embed Frameworks */,
+				0537CDA0222AA9E600373614 /* Cobalt.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		058F56CA21D74F81002D4C71 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,8 +116,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0537CD95222AA95D00373614 /* AmberComponent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmberComponent.framework; path = ../../../../Library/Frameworks/AmberComponent.framework; sourceTree = "<group>"; };
+		0537CD99222AA9A800373614 /* KiwiLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiLibrary.framework; path = ../../../../Library/Frameworks/KiwiLibrary.framework; sourceTree = "<group>"; };
+		0537CD9D222AA9E300373614 /* Cobalt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cobalt.framework; path = ../../../../Library/Frameworks/Cobalt.framework; sourceTree = "<group>"; };
+		0537CDA1222AAA0700373614 /* CoconutShell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutShell.framework; path = ../../../../Library/Frameworks/CoconutShell.framework; sourceTree = "<group>"; };
 		053B9B63222041D800C06803 /* compiler.amb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = compiler.amb; sourceTree = "<group>"; };
-		0563EB6221B9729E006244DD /* AmberComponent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AmberComponent.framework; sourceTree = "<group>"; };
 		0563EB6321B972B4006244DD /* AmberCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmberCore.framework; path = ../../../../Library/Frameworks/AmberCore.framework; sourceTree = "<group>"; };
 		0563EB6521B972C8006244DD /* KiwiControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiControls.framework; path = ../../../../Library/Frameworks/KiwiControls.framework; sourceTree = "<group>"; };
 		0563EB6721B97304006244DD /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../../Library/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
@@ -96,7 +135,6 @@
 		05D6E9A821B96B18009F16B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05D6E9AA21B96B18009F16B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D6E9AB21B96B18009F16B1 /* BattleFieldCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BattleFieldCode.entitlements; sourceTree = "<group>"; };
-		05D995C221BBE0A800911C3A /* KiwiLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiLibrary.framework; path = ../../../../Library/Frameworks/KiwiLibrary.framework; sourceTree = "<group>"; };
 		05D995C321BBE0A800911C3A /* KiwiObject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiObject.framework; path = ../../../../Library/Frameworks/KiwiObject.framework; sourceTree = "<group>"; };
 		05D995C621BBE0D400911C3A /* BattleFieldCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BattleFieldCore.framework; path = ../../../../Library/Frameworks/BattleFieldCore.framework; sourceTree = "<group>"; };
 		05F4EA2C21BAC9E40040AD9A /* startup.amb */ = {isa = PBXFileReference; lastKnownFileType = text; path = startup.amb; sourceTree = "<group>"; };
@@ -110,15 +148,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05D995C721BBE0D400911C3A /* BattleFieldCore.framework in Frameworks */,
-				05D995C421BBE0A800911C3A /* KiwiLibrary.framework in Frameworks */,
-				05D995C521BBE0A800911C3A /* KiwiObject.framework in Frameworks */,
-				0563EB6A21B97326006244DD /* KiwiEngine.framework in Frameworks */,
-				0563EB6621B972C8006244DD /* KiwiControls.framework in Frameworks */,
-				0563EB6D21B97397006244DD /* CoconutDatabase.framework in Frameworks */,
-				0563EB6821B97304006244DD /* CoconutData.framework in Frameworks */,
-				0563EB6B21B97330006244DD /* AmberComponent.framework in Frameworks */,
-				0563EB6421B972B4006244DD /* AmberCore.framework in Frameworks */,
+				0537CD8C222AA91C00373614 /* CoconutData.framework in Frameworks */,
+				0537CD8A222AA91C00373614 /* KiwiEngine.framework in Frameworks */,
+				0537CD97222AA96D00373614 /* AmberComponent.framework in Frameworks */,
+				0537CD8E222AA91C00373614 /* KiwiControls.framework in Frameworks */,
+				0537CDA3222AAA0D00373614 /* CoconutShell.framework in Frameworks */,
+				0537CD88222AA91C00373614 /* CoconutDatabase.framework in Frameworks */,
+				0537CDA2222AAA0700373614 /* CoconutShell.framework in Frameworks */,
+				0537CD82222AA91C00373614 /* BattleFieldCore.framework in Frameworks */,
+				0537CD9F222AA9E600373614 /* Cobalt.framework in Frameworks */,
+				0537CD86222AA91C00373614 /* KiwiObject.framework in Frameworks */,
+				0537CD9B222AA9AC00373614 /* KiwiLibrary.framework in Frameworks */,
+				0537CD90222AA91C00373614 /* AmberCore.framework in Frameworks */,
+				0537CD9E222AA9E300373614 /* Cobalt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,15 +170,17 @@
 		0563EB5F21B9723F006244DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0537CDA1222AAA0700373614 /* CoconutShell.framework */,
+				0537CD9D222AA9E300373614 /* Cobalt.framework */,
+				0537CD99222AA9A800373614 /* KiwiLibrary.framework */,
+				0537CD95222AA95D00373614 /* AmberComponent.framework */,
 				05D995C621BBE0D400911C3A /* BattleFieldCore.framework */,
-				05D995C221BBE0A800911C3A /* KiwiLibrary.framework */,
 				05D995C321BBE0A800911C3A /* KiwiObject.framework */,
 				0563EB6C21B97397006244DD /* CoconutDatabase.framework */,
 				0563EB6921B97326006244DD /* KiwiEngine.framework */,
 				0563EB6721B97304006244DD /* CoconutData.framework */,
 				0563EB6521B972C8006244DD /* KiwiControls.framework */,
 				0563EB6321B972B4006244DD /* AmberCore.framework */,
-				0563EB6221B9729E006244DD /* AmberComponent.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,6 +287,7 @@
 				05F4EA2F21BAC9FD0040AD9A /* CopyFiles */,
 				05F4EA3121BACA170040AD9A /* CopyFiles */,
 				058F56CA21D74F81002D4C71 /* CopyFiles */,
+				0537CD94222AA91C00373614 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,6 +314,9 @@
 					05D6E99D21B96B17009F16B1 = {
 						CreatedOnToolsVersion = 10.1;
 						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
 							com.apple.Sandbox = {
 								enabled = 1;
 							};
@@ -492,6 +540,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TR2DNF3P93;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Frameworks",
@@ -519,6 +568,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TR2DNF3P93;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Frameworks",

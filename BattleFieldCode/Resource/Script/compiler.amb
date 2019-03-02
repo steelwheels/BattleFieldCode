@@ -1,5 +1,24 @@
 compiler: Window {
-  label0: Label {
-    text: string "Hello"
+  result0: bool false,
+  result1: bool false,
+  top: Box {
+    axis: Axis vertical,
+    title: Label {
+      text: string "Compile result"
+    },
+    consoles: Box {
+      axis: Axis horizontal,
+      console0: Console {},
+      console1: Console {}
+    },
+    continue_button: Button {
+      title: string "Start battle",
+      enable: bool listener(r0: compiler.result0, r1: compiler.result1) %{
+        return r0 && r1 ;
+      %},
+      pressed: void event() %{
+        console.log("button pressed\n")
+      %}
+    }
   }
 }

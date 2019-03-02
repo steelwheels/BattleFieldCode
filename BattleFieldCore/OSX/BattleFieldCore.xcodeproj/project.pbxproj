@@ -14,14 +14,28 @@
 		052D1F8D21A05BA100B95922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D1F8C21A05BA100B95922 /* ViewController.swift */; };
 		052D1F8F21A05BA200B95922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052D1F8E21A05BA200B95922 /* Assets.xcassets */; };
 		052D1F9221A05BA200B95922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D1F9021A05BA200B95922 /* Main.storyboard */; };
-		052D1F9A21A05BB700B95922 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590AE01217370B30076C648 /* CoconutData.framework */; };
-		052D1F9B21A05BC600B95922 /* KiwiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EA5F30217504F700AF9AB8 /* KiwiEngine.framework */; };
-		052D1F9C21A05BC900B95922 /* KiwiLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EA5F322175051100AF9AB8 /* KiwiLibrary.framework */; };
-		052D1F9D21A05BD100B95922 /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050D9388217384D3006E691D /* KiwiControls.framework */; };
-		052D1F9F21A05BE900B95922 /* BattleFieldCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052D1F9E21A05BE900B95922 /* BattleFieldCore.framework */; };
 		0555A04821736F2D00CD7BD3 /* BattleFieldCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0555A04621736F2D00CD7BD3 /* BattleFieldCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05689A2F21AA36C9001ECADC /* blue-machine.png in Resources */ = {isa = PBXBuildFile; fileRef = 05689A2D21AA36C9001ECADC /* blue-machine.png */; };
 		05689A3021AA36C9001ECADC /* green-machine.png in Resources */ = {isa = PBXBuildFile; fileRef = 05689A2E21AA36C9001ECADC /* green-machine.png */; };
+		056EB1AD222AA71D009E4E8B /* KiwiLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EA5F322175051100AF9AB8 /* KiwiLibrary.framework */; };
+		056EB1AE222AA71D009E4E8B /* KiwiLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05EA5F322175051100AF9AB8 /* KiwiLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		056EB1AF222AA71D009E4E8B /* KiwiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EA5F30217504F700AF9AB8 /* KiwiEngine.framework */; };
+		056EB1B0222AA71D009E4E8B /* KiwiEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05EA5F30217504F700AF9AB8 /* KiwiEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		056EB1B1222AA71D009E4E8B /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050D9388217384D3006E691D /* KiwiControls.framework */; };
+		056EB1B2222AA71D009E4E8B /* KiwiControls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 050D9388217384D3006E691D /* KiwiControls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		056EB1B3222AA71D009E4E8B /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590AE01217370B30076C648 /* CoconutData.framework */; };
+		056EB1B4222AA71D009E4E8B /* CoconutData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0590AE01217370B30076C648 /* CoconutData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		056EB1B7222AA778009E4E8B /* BattleFieldCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056EB1B6222AA76F009E4E8B /* BattleFieldCore.framework */; };
+		056EB1B8222AA778009E4E8B /* BattleFieldCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 056EB1B6222AA76F009E4E8B /* BattleFieldCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		056EB1BA222AA79C009E4E8B /* KiwiObject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056EB1B9222AA79C009E4E8B /* KiwiObject.framework */; };
+		056EB1BD222AA7B9009E4E8B /* CoconutShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056EB1BB222AA7B9009E4E8B /* CoconutShell.framework */; };
+		056EB1BE222AA7B9009E4E8B /* CoconutDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056EB1BC222AA7B9009E4E8B /* CoconutDatabase.framework */; };
+		056EB1BF222AA7C7009E4E8B /* CoconutDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056EB1BC222AA7B9009E4E8B /* CoconutDatabase.framework */; };
+		056EB1C0222AA7C7009E4E8B /* CoconutDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 056EB1BC222AA7B9009E4E8B /* CoconutDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		056EB1C1222AA7C7009E4E8B /* CoconutShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056EB1BB222AA7B9009E4E8B /* CoconutShell.framework */; };
+		056EB1C2222AA7C7009E4E8B /* CoconutShell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 056EB1BB222AA7B9009E4E8B /* CoconutShell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		056EB1C3222AA800009E4E8B /* KiwiObject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056EB1B9222AA79C009E4E8B /* KiwiObject.framework */; };
+		056EB1C4222AA800009E4E8B /* KiwiObject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 056EB1B9222AA79C009E4E8B /* KiwiObject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0573A217217395F20090B6A9 /* BFCField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573A216217395F20090B6A9 /* BFCField.swift */; };
 		0590AE02217370B30076C648 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590AE01217370B30076C648 /* CoconutData.framework */; };
 		05D72FB721778BAE004B6493 /* BFCCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D72FB621778BAE004B6493 /* BFCCompiler.swift */; };
@@ -49,6 +63,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		056EB1B5222AA71D009E4E8B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				056EB1C2222AA7C7009E4E8B /* CoconutShell.framework in Embed Frameworks */,
+				056EB1B0222AA71D009E4E8B /* KiwiEngine.framework in Embed Frameworks */,
+				056EB1AE222AA71D009E4E8B /* KiwiLibrary.framework in Embed Frameworks */,
+				056EB1C4222AA800009E4E8B /* KiwiObject.framework in Embed Frameworks */,
+				056EB1B4222AA71D009E4E8B /* CoconutData.framework in Embed Frameworks */,
+				056EB1C0222AA7C7009E4E8B /* CoconutDatabase.framework in Embed Frameworks */,
+				056EB1B2222AA71D009E4E8B /* KiwiControls.framework in Embed Frameworks */,
+				056EB1B8222AA778009E4E8B /* BattleFieldCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05EF35EA2177A4B3009233CA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,12 +104,15 @@
 		052D1F9121A05BA200B95922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		052D1F9321A05BA200B95922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		052D1F9421A05BA200B95922 /* UnitTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnitTest.entitlements; sourceTree = "<group>"; };
-		052D1F9E21A05BE900B95922 /* BattleFieldCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BattleFieldCore.framework; path = ../../../../Library/Frameworks/BattleFieldCore.framework; sourceTree = "<group>"; };
 		0555A04321736F2D00CD7BD3 /* BattleFieldCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BattleFieldCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0555A04621736F2D00CD7BD3 /* BattleFieldCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleFieldCore.h; sourceTree = "<group>"; };
 		0555A04721736F2D00CD7BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05689A2D21AA36C9001ECADC /* blue-machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-machine.png"; sourceTree = "<group>"; };
 		05689A2E21AA36C9001ECADC /* green-machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-machine.png"; sourceTree = "<group>"; };
+		056EB1B6222AA76F009E4E8B /* BattleFieldCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BattleFieldCore.framework; path = ../../../../Library/Frameworks/BattleFieldCore.framework; sourceTree = "<group>"; };
+		056EB1B9222AA79C009E4E8B /* KiwiObject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiObject.framework; path = ../../../../Library/Frameworks/KiwiObject.framework; sourceTree = "<group>"; };
+		056EB1BB222AA7B9009E4E8B /* CoconutShell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutShell.framework; path = ../../../../Library/Frameworks/CoconutShell.framework; sourceTree = "<group>"; };
+		056EB1BC222AA7B9009E4E8B /* CoconutDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutDatabase.framework; path = ../../../../Library/Frameworks/CoconutDatabase.framework; sourceTree = "<group>"; };
 		0573A216217395F20090B6A9 /* BFCField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFCField.swift; sourceTree = "<group>"; };
 		0590AE01217370B30076C648 /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../../Library/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
 		05D72FB621778BAE004B6493 /* BFCCompiler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFCCompiler.swift; sourceTree = "<group>"; };
@@ -94,11 +129,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				052D1F9F21A05BE900B95922 /* BattleFieldCore.framework in Frameworks */,
-				052D1F9A21A05BB700B95922 /* CoconutData.framework in Frameworks */,
-				052D1F9B21A05BC600B95922 /* KiwiEngine.framework in Frameworks */,
-				052D1F9C21A05BC900B95922 /* KiwiLibrary.framework in Frameworks */,
-				052D1F9D21A05BD100B95922 /* KiwiControls.framework in Frameworks */,
+				056EB1C1222AA7C7009E4E8B /* CoconutShell.framework in Frameworks */,
+				056EB1AF222AA71D009E4E8B /* KiwiEngine.framework in Frameworks */,
+				056EB1AD222AA71D009E4E8B /* KiwiLibrary.framework in Frameworks */,
+				056EB1C3222AA800009E4E8B /* KiwiObject.framework in Frameworks */,
+				056EB1B3222AA71D009E4E8B /* CoconutData.framework in Frameworks */,
+				056EB1BF222AA7C7009E4E8B /* CoconutDatabase.framework in Frameworks */,
+				056EB1B1222AA71D009E4E8B /* KiwiControls.framework in Frameworks */,
+				056EB1B7222AA778009E4E8B /* BattleFieldCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +148,9 @@
 				05EA5F31217504F700AF9AB8 /* KiwiEngine.framework in Frameworks */,
 				050D9389217384D3006E691D /* KiwiControls.framework in Frameworks */,
 				0590AE02217370B30076C648 /* CoconutData.framework in Frameworks */,
+				056EB1BE222AA7B9009E4E8B /* CoconutDatabase.framework in Frameworks */,
+				056EB1BA222AA79C009E4E8B /* KiwiObject.framework in Frameworks */,
+				056EB1BD222AA7B9009E4E8B /* CoconutShell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +242,10 @@
 		0590AE00217370B20076C648 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				052D1F9E21A05BE900B95922 /* BattleFieldCore.framework */,
+				056EB1BC222AA7B9009E4E8B /* CoconutDatabase.framework */,
+				056EB1BB222AA7B9009E4E8B /* CoconutShell.framework */,
+				056EB1B9222AA79C009E4E8B /* KiwiObject.framework */,
+				056EB1B6222AA76F009E4E8B /* BattleFieldCore.framework */,
 				05EA5F322175051100AF9AB8 /* KiwiLibrary.framework */,
 				05EA5F30217504F700AF9AB8 /* KiwiEngine.framework */,
 				050D9388217384D3006E691D /* KiwiControls.framework */,
@@ -306,6 +350,7 @@
 				052D1F8421A05BA000B95922 /* Sources */,
 				052D1F8521A05BA000B95922 /* Frameworks */,
 				052D1F8621A05BA000B95922 /* Resources */,
+				056EB1B5222AA71D009E4E8B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -348,6 +393,9 @@
 					052D1F8721A05BA000B95922 = {
 						CreatedOnToolsVersion = 10.1;
 						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
 							com.apple.Sandbox = {
 								enabled = 1;
 							};
@@ -453,6 +501,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TR2DNF3P93;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Frameworks",
@@ -479,6 +528,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TR2DNF3P93;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Frameworks",

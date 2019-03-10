@@ -17,7 +17,6 @@ public class BFCMachine: BFCObject
 	}
 
 	private var mKind:	BFCMachine.Kind
-	private var mProcess:	KEProcess
 	private var mObject:	BFCMachineObject
 
 	public var angle:	Double
@@ -25,14 +24,12 @@ public class BFCMachine: BFCObject
 	public init(kind knd: BFCMachine.Kind, config conf: KEConfig) {
 		let context	= KEContext(virtualMachine: JSVirtualMachine())
 		mKind 		= knd
-		mProcess	= KEProcess(context: context, config: conf)
 		mObject		= BFCMachineObject(context: context)
 		angle 		= 0.0
 		super.init(context: context)
 	}
 
 	public var object:  BFCMachineObject	{ get { return mObject	}}
-	public var process: KEProcess		{ get { return mProcess }}
 }
 
 public class BFCMachineObject: BFCObjectModel

@@ -49,9 +49,14 @@ class ViewController: NSViewController
 		object.importProperties(machine: machine)
 
 		/* allocate operation */
-		let opcontext = KEOperationQueues.OperationContext(context: machine.context, process: machine.process)
-		let queue     = KEOperationQueues(queueNum: 1)
-		queue.execute(contextGroups: [[opcontext]], timeLimit: 1.0)
+		let operation = KLOperation(console: console, config: config)
+		let context   = operation.context
+		let program   = JSValue(object: "console.log(\"***** Program\\n\");", in: context)
+		let main      = JSValue(object: "function(){ console.log(\"***** main\\n\"); }", in: context)
+		let _ = operation.compile(program!, main!)
+
+		let queue = KLOperationQueue()
+		let _ = queue.execute(JSValue(object: operation, in: context), JSValue(nullIn: context))
 	}
 
 	override var representedObject: Any? {

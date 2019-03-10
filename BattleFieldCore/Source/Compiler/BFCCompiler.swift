@@ -20,8 +20,7 @@ public class BFCCompiler: KLCompiler
 	public func compile(machine target: BFCMachine, script srcurl: URL) -> Bool {
 		/* Compile Libraries */
 		let context = target.context
-		let process = target.process
-		guard super.compile(context: context, process: process) else {
+		guard super.compile(context: context) else {
 			return false
 		}
 
@@ -32,7 +31,7 @@ public class BFCCompiler: KLCompiler
 		compile(context: context, instance: "_machine_info", object: object)
 
 		/* Define machine class */
-		guard defineMachineClass(context: context, process: process) else {
+		guard defineMachineClass(context: context) else {
 			return false
 		}
 
@@ -61,7 +60,7 @@ public class BFCCompiler: KLCompiler
 		return true
 	}
 
-	private func defineMachineClass(context ctxt: KEContext, process proc: KEProcess) -> Bool {
+	private func defineMachineClass(context ctxt: KEContext) -> Bool {
 		if let script = readResource(fileName: "Script/machine", fileExtension: "js", forClass: BFCCompiler.self) {
 			let _ = compile(context: ctxt, statement: script)
 			return true

@@ -25,9 +25,7 @@ class ViewController: NSViewController
 		let console = mConsoleView.console
 		console.print(string: "Hello\n")
 
-		let config  = KLConfig(kind: .Operation, doStrict: true, doVerbose: true)
-		config.doUseGraphicsPrimitive = true
-
+		let config  = KEConfig(kind: .Operation, doStrict: true, doVerbose: true)
 		let machine = BFCMachine(kind: .Tank, config: config)
 
 		guard let srcurl = URL.openPanel(title: "Select user script", selection: .SelectFile, fileTypes: ["js"]) else {
@@ -49,14 +47,14 @@ class ViewController: NSViewController
 		object.importProperties(machine: machine)
 
 		/* allocate operation */
-		let operation = KLOperation(console: console, config: config)
-		let context   = operation.context
-		let program   = JSValue(object: "console.log(\"***** Program\\n\");", in: context)
-		let main      = JSValue(object: "function(){ console.log(\"***** main\\n\"); }", in: context)
+		let owncontext = KEContext(virtualMachine: JSVirtualMachine())
+		let operation  = KLOperation(ownerContext: owncontext, console: console, config: config)
+		let program    = JSValue(object: "console.log(\"***** Program\\n\");", in: owncontext)
+		let main       = JSValue(object: "function(){ console.log(\"***** main\\n\"); }", in: owncontext)
 		let _ = operation.compile(program!, main!)
 
-		let queue = KLOperationQueue()
-		let _ = queue.execute(JSValue(object: operation, in: context), JSValue(nullIn: context))
+		let queue = KLOperationQueue(console: console)
+		let _ = queue.execute(JSValue(object: operation, in: owncontext), JSValue(nullIn: owncontext))
 	}
 
 	override var representedObject: Any? {

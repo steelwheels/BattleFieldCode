@@ -13,7 +13,7 @@ import Foundation
 
 public class BFCCompiler: KLCompiler
 {
-	public override init(console cons: CNConsole, config conf: KLConfig) {
+	public override init(console cons: CNConsole, config conf: KEConfig) {
 		super.init(console: cons, config: conf)
 	}
 
